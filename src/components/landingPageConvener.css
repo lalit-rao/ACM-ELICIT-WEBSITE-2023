@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Poppins&display=swap');
 
-.containerof {
+.containerof0 {
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     background: linear-gradient(135deg, #000000, #000000);
     padding: 10px;
-    position: relative;
-    top: 200px;
 }
 
-.card {
+.card0 {
     width: 15rem;
     height: 20rem;
     margin: 100px auto 0;
@@ -18,7 +16,7 @@
     border-radius: 15px;
 }
 
-.card-inner {
+.card-inner0 {
     width: 100%;
     height: 100%;
     position: relative;
@@ -26,7 +24,7 @@
     transform-style: preserve-3d;
 }
 
-.front, .back {
+.front0, .back0 {
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -36,7 +34,7 @@
 
 }
 
-.front {
+.front0 {
     background-size: cover;
     /*background-position: center;*/
     background-repeat: no-repeat;
@@ -47,70 +45,61 @@
     color: #fff;
 }
 
-.Person-1 {
+.Person-10 {
     background-image: url("../assets/images/Convener/soham.png");
 }
 
-.Person-2 {
+.Person-20 {
     background-image: url("../assets/images/Convener/nikunj.png");
 }
 
-.Person-3 {
+.Person-30 {
     background-image: url("../assets/images/Convener/vishesh.png");
 }
 
-.Person-4 {
+.Person-40 {
     background-image: url("../assets/images/Convener/mainImage.png");
 }
 
-.front h2 {
+.front0 h2 {
     font-weight: 500;
     font-size: 1.5rem;
 }
 
-.front p {
+.front0 p {
     color: #ccc;
     font-size: 0.9rem;
 }
 
-/*.front button {
-    width: 120px;
-    border: 1px solid #fff;
-    background: transparent;
-    border-radius: 50px;
-    padding: 8px 20px;
-    cursor: pointer;
-    margin-top: 30px;
-    color: white;
-}*/
-
-.back {
-    background: rgba(255, 255, 255, 0.83);
+.back0 {
+    background: rgba(223, 221, 230, 0.69);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     color: #333;
     padding: 20px 30px;
     transform: rotateY(180deg);
 }
 
-.back h1 {
+.back0 h1 {
     font-size: 35px;
     line-height: 55px;
     margin-bottom: 10px;
 }
 
-.back h1 span {
+.back0 h1 span {
     font-weight: 400;
 }
 
-.back p {
+.back0 p {
     font-size: 13px;
     font-weight: 600;
 }
 
-.back p span {
+.back0 p span {
     font-weight: 600;
 }
 
-.row {
+.row0 {
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -119,23 +108,7 @@
     position: absolute;
 }
 
-.col {
-    flex: 1;
-    text-align: center;
-    color: #555;
-    font-size: 12px;
-    position: relative;
-}
-
-.col h2 {
-    font-size: 20px;
-}
-
-.col p {
-    margin-top: 5px;
-}
-
-.back button {
+.back0 button {
     background: #c22e8d;
     color: #fff;
     border: 0;
@@ -145,12 +118,9 @@
     font-size: 14px;
     margin-right: 15px;
     box-shadow: 0 8px 10px rgba(120, 0, 173, 0.3);
-    /* position: absolute;
-     bottom: 200px;
-     left: 100px;*/
 }
 
-.back a {
+.back0 a {
     width: 50px;
     height: 45px;
     border-radius: 50%;
@@ -162,31 +132,27 @@
     background-color: white;
 }
 
-.back a:hover {
+.back0 a:hover {
     transform: scale(1.12);
     transition: 0.5s ease-in-out;
 }
 
-.back a img {
+.back0 a img {
     width: 60%;
 }
 
-.card:hover .card-inner {
+.card0:hover .card-inner0 {
     transform: rotateY(180deg);
 }
 
-.containerof-2 {
+.containerof-20 {
     display: flex;
     flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
-    /*.card {
-        width: 270px;
-        height: 390px;
-    }*/
 
-    .back a {
+    .back0 a {
         width: 50px;
         height: 45px;
         border-radius: 50%;
@@ -196,11 +162,18 @@
         justify-content: center;
         margin: 0 5px;
     }
+    .containerof-20 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        overflow: hidden;
+        margin-bottom: 200px;
+    }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width:1100px) {
-    .card {
+    .card0 {
         width: 270px;
         height: 390px;
     }

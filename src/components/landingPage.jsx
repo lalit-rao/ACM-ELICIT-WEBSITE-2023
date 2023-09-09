@@ -2,10 +2,11 @@ import LPHero from "./landingPageHero.jsx";
 import Navbar from "./Navbar.jsx";
 import CounterCards from "./CounterCards.jsx";
 // import MainHero from './landingPageMainHero.jsx';
-// import Convener from "./landingPageConvener.jsx";
+import Convener from "./landingPageConvener.jsx";
 import LandingPageUE from "./landingPageUpcomingEvents.jsx";
 import LandingPagePE from "./landingPagePastEvents.jsx";
 import CarouselGallery from "./landingPageGallery.jsx";
+// import Footer from "./footer.jsx";
 import "./landingPage.css";
 const LandingPage = () => {
     return (
@@ -22,9 +23,9 @@ const LandingPage = () => {
             {/*<section className="MainHero">
                 <MainHero />
             </section>*/}
-            {/*<section className="Convener">
+            <section className="Convener">
                 <Convener />
-            </section>*/}
+            </section>
             <section className="UpcomingEvents">
                 <LandingPageUE />
             </section>
@@ -34,6 +35,9 @@ const LandingPage = () => {
             <section className="CarouselLandingGallery">
                 <CarouselGallery />
             </section>
+            {/*<section className="Footer">
+                <Footer />
+            </section>*/}
         </div>
     );
 };
