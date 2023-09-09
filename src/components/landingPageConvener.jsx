@@ -3,7 +3,7 @@ import { Instagram, Linkedin } from '../assets/images/index.js'
 
 const LandingPageConvener = () => {
     return (
-        <div className="containerof">
+        <div className="containerof0">
             {/*<Title firstWord={""} secondWord={"Convener"} />*/}
             <div className="containerof-1">
                 <div className="card0">

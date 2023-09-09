@@ -2,9 +2,10 @@
 
 .containerof0 {
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     background: linear-gradient(135deg, #000000, #000000);
     padding: 10px;
+    margin-bottom: 100px;
 }
 
 .card0 {
