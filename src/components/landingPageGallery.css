@@ -55,8 +55,8 @@ body {
 @media only screen and (min-width:319px) and (max-width:425px) {
     .box {
         position: relative;
-        width: 11em; /* 230px */
-        height: 9em;
+        width: 10.5em; /* 230px */
+        height: 8.5em;
         transform-style: preserve-3d;
         /*animation: rotate 40s linear infinite;*/
     }
