@@ -1,0 +1,150 @@
+.animated-grid {
+    height: 90vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    --stagger-delay: 100ms;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+@keyframes cardEntrance {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+        filter: hue-rotate(180deg);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+    }
+}
+
+.card {
+    background-color: rgb(36, 243, 147);
+    animation: cardEntrance 700ms ease-out;
+    animation-fill-mode: backwards;
+    display: grid;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card-1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.card-2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.card-3 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.card-4 {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.card-5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.card-6 {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.card-7 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+
+.card-8 {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+
+.card-9 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 13;
+}
+
+.card-10 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 10;
+    grid-row-end: 13;
+}
+
+.card-11 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 10;
+    grid-row-end: 13;
+}
+
+.card-12 {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    grid-row-start: 10;
+    grid-row-end: 13;
+}
+
+.card-main {
+    animation-delay: calc(var(--stagger-delay) * 13);
+    grid-column-start: 5;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 10;
+    display: block;
+    width: 100%;
+}
+
+.animated-grid img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (orientation: portrait)
+and (min-device-width: 600px)
+and (max-device-width: 1050px) {
+    .animated-grid {
+        height: 65vh;
+        display: grid;
+    }
+}
+
+@media only screen and (orientation: portrait)
+and (min-device-width: 319px)
+and (max-device-width: 550px) {
+    .animated-grid {
+        height: 35vh;
+        display: grid;
+    }
+}

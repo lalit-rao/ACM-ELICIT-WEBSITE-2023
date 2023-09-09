@@ -1,0 +1,201 @@
+.MainContainer {
+    color: white;
+    width: 57.5vw;
+    height: 42.5vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(23, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+}
+
+.GridGap {
+    margin: 0.35vw;
+}
+
+.PosterBorder {
+    box-shadow: -1.5px 5px 30px 1.5px rgba(148, 112, 219, 0.40);
+    border: 0.2rem #723DC7 solid;
+    z-index: 100;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.PosterBorder:hover {
+    transform: scale(1.01) translate(-0.25vw, -0.25vw);
+    box-shadow: -1px 3px 25px 1px rgba(148, 112, 219, 0.40);
+}
+
+.Posters {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.HorizontalLineElement {
+    display: flex;
+    overflow: hidden;
+}
+
+.HorizontalLine {
+    width: 100%;
+    height: 2px;
+    margin-top: 10%;
+}
+
+.VerticalLine {
+    min-width: 2px;
+    height: 100%;
+    margin-right: 10%;
+}
+
+.element1 {
+    background-color: transparent;
+    grid-row: span 2;
+    grid-column: span 5;
+}
+
+.element2 {
+    grid-row: span 6;
+    grid-column: span 5;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.element3 {
+    grid-row: span 5;
+    grid-column: span 5;
+}
+
+.element4 {
+    background-color: transparent;
+    grid-row: span 1;
+    grid-column: span 8;
+}
+
+.element5 {
+    grid-row: span 6;
+    grid-column: span 5;
+}
+
+.element6 {
+    grid-row: span 6;
+    grid-column: span 3;
+}
+
+.element7 {
+    grid-row: span 6;
+    grid-column: span 5;
+}
+
+.element8 {
+    grid-row: span 6;
+    grid-column: span 5;
+}
+
+.element9 {
+    grid-row: span 6;
+    grid-column: span 5;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.element10 {
+    background-color: rgba(163, 133, 224, 0.6);
+    grid-row: span 4;
+    grid-column: span 3;
+}
+
+.element11 {
+    grid-row: span 6;
+    grid-column: span 5;
+}
+
+.element12 {
+    background-color: rgba(102, 51, 204, 0.5);
+    grid-row: span 5;
+    grid-column: span 2;
+    margin: 0.35vw 0.35vw 0 0.35vw;
+}
+
+.element13 {
+    background-color: transparent;
+    grid-row: span 5;
+    grid-column: span 1;
+}
+
+.element14 {
+    background-color: rgba(71, 36, 143, 0.5);
+    grid-row: span 7;
+    grid-column: span 2;
+    margin: 0.35vw 0.35vw -0.35vw 0.35vw;
+}
+
+.element15 {
+    background-color: rgba(133, 92, 214, 0.5);
+    grid-row: span 4;
+    grid-column: span 3;
+}
+
+.element16 {
+    grid-row: span 6;
+    grid-column: span 5;
+}
+
+.element17 {
+    background-color: transparent;
+    grid-row: span 1;
+    grid-column: span 5;
+}
+
+.element18 {
+    background-color: rgb(77, 39, 153);
+    grid-row: span 2;
+    grid-column: span 2;
+    margin: 0 .35vw 0.35vw 0.35vw;
+}
+
+.element19 {
+    background-color: rgba(102, 51, 204, 0.5);
+    grid-row: span 2;
+    grid-column: span 1;
+    margin: 0 -0.35vw 0.35vw -0.35vw;
+}
+
+.element20 {
+    background-color: rgba(102, 51, 204, 0.5);
+    grid-row: span 2;
+    grid-column: span 5;
+    margin: 0 0.35vw 0.35vw -0.35vw;
+}
+
+.element21 {
+    background-color: rgba(179, 153, 230, 0.4);
+    grid-row: span 4;
+    grid-column: span 5;
+}
+
+.element22 {
+    background-color: transparent;
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.element23 {
+    background-color: rgb(54, 27, 108);
+    grid-row: span 2;
+    grid-column: span 2;
+    margin: 0.35vw 0.35vw 0.35vw 0.35vw;
+}
+
+.element24 {
+    background-color: rgba(71, 36, 143, 0.5);
+    grid-row: span 2;
+    grid-column: span 8;
+    margin: 0.35vw 0.35vw 0.35vw -0.35vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .MainContainer {
+        width: 92vw;
+        height: 68vw;
+    }
+}

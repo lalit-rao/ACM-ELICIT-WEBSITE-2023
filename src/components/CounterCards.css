@@ -1,0 +1,122 @@
+#animated-box .counterCards-text {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#animated-box .counterCards-text h1 {
+    margin-right: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#animated-box .counterCards-text p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#animated-box .row {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    /*position: relative;
+    top: 70px;*/
+}
+
+#animated-box .row .column {
+    position: relative;
+    top: -35px;
+    height: 120px;
+    width: 250px;
+    background-color: #444;
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: rgba(81, 34, 159, 0.9);
+}
+
+#animated-box .card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#animated-box .card-name {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+}
+#animated-box .space {
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 425px) {
+    #animated-box .row {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+    }
+    #animated-box .row .column {
+        display: block;
+        height: 110px;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    #animated-box .row {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #animated-box .row .column {
+        display: block;
+        height: 140px;
+        width: 250px;
+        background-color: #444;
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #animated-box .row {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #animated-box .row .column {
+        display: block;
+        height: 140px;
+        width: 250px;
+        background-color: #444;
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1330px) {
+    #animated-box .row .column {
+        margin-right: 20px;
+    }
+}

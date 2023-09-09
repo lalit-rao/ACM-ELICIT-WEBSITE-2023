@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Poppins&display=swap');
+
+.containerof {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #000000, #000000);
+    padding: 10px;
+    position: relative;
+    top: 200px;
+}
+
+.card {
+    width: 15rem;
+    height: 20rem;
+    margin: 100px auto 0;
+    perspective: 1000px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: absolute;
+    backface-visibility: hidden;
+    box-shadow: 0 0 20px 5px #a257db;
+
+}
+
+.front {
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.Person-1 {
+    background-image: url("../assets/images/Convener/soham.png");
+}
+
+.Person-2 {
+    background-image: url("../assets/images/Convener/nikunj.png");
+}
+
+.Person-3 {
+    background-image: url("../assets/images/Convener/vishesh.png");
+}
+
+.Person-4 {
+    background-image: url("../assets/images/Convener/mainImage.png");
+}
+
+.front h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.front p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+/*.front button {
+    width: 120px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 50px;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: white;
+}*/
+
+.back {
+    background: rgba(255, 255, 255, 0.83);
+    color: #333;
+    padding: 20px 30px;
+    transform: rotateY(180deg);
+}
+
+.back h1 {
+    font-size: 35px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.back h1 span {
+    font-weight: 400;
+}
+
+.back p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.back p span {
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    bottom: 12%;
+    left: 25%;
+    position: absolute;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+    position: relative;
+}
+
+.col h2 {
+    font-size: 20px;
+}
+
+.col p {
+    margin-top: 5px;
+}
+
+.back button {
+    background: #c22e8d;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-right: 15px;
+    box-shadow: 0 8px 10px rgba(120, 0, 173, 0.3);
+    /* position: absolute;
+     bottom: 200px;
+     left: 100px;*/
+}
+
+.back a {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    background-color: white;
+}
+
+.back a:hover {
+    transform: scale(1.12);
+    transition: 0.5s ease-in-out;
+}
+
+.back a img {
+    width: 60%;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.containerof-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    /*.card {
+        width: 270px;
+        height: 390px;
+    }*/
+
+    .back a {
+        width: 50px;
+        height: 45px;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1100px) {
+    .card {
+        width: 270px;
+        height: 390px;
+    }
+}

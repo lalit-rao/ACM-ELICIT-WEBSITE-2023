@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.box {
+    position: relative;
+    width: 280px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 32s linear infinite;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style:preserve-3d;
+}
+
+.box span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.7s ease-in;
+    border-radius: 20px;
+}
+
+
+
+.box span:hover img{
+    transform: translateY(-30px) scale(1.2);
+}
+
+@media only screen and (min-width:319px) and (max-width:425px) {
+    .box {
+        position: relative;
+        width: 230px;
+        height: 160px;
+        transform-style: preserve-3d;
+        /*animation: rotate 40s linear infinite;*/
+    }
+    .box span:hover img{
+        transform: translateY(0) scale(1);
+    }
+    .box span {
+        --translate-z: 325px;
+    }
+}
+@media (min-width: 1024px) {
+    .box span {
+        --translate-z: 390px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .box span {
+        --translate-z: 390px;
+    }
+}
+
+@media (min-width: 424px) and (max-width: 767px) {
+    .box span {
+        --translate-z: 390px;
+    }
+}

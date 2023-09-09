@@ -1,0 +1,51 @@
+.CounterCards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.UpcomingEvents {
+    height: 100vh;
+}
+
+.PastEvents {
+    height: 130vh;
+    margin-bottom: 200px;
+}
+
+.CarouselLandingGallery {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+/*
+.Convener {
+    position: relative;
+}*/
+
+.MainHero {
+    max-height: 100vh;
+}
+
+@media screen and (min-width: 319px) and (max-width:768px) {
+    .UpcomingEvents {
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .PastEvents {
+        height: auto;
+        margin-bottom: 200px;
+    }
+
+    .CarouselLandingGallery {
+        position: relative;
+        width: 100vh;
+        overscroll-behavior-x: contain;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
