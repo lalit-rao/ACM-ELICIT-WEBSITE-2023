@@ -61,7 +61,7 @@ body {
         /*animation: rotate 40s linear infinite;*/
     }
     .box span:hover img{
-        transform: translateY(0) scale(1);
+        transform: translateY(-15px) scale(1.1);
     }
     .box span {
         --translate-z: 14em;
