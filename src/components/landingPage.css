@@ -42,7 +42,8 @@
 
     .CarouselLandingGallery {
         position: relative;
-        width: 80%;
+        max-width: 80%;
+        margin: 0 auto;
         /*overscroll-behavior-x: contain;*/
         height: auto;
         display: flex;
