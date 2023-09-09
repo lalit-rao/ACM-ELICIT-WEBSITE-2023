@@ -54,18 +54,16 @@ body {
 
 @media only screen and (min-width:319px) and (max-width:425px) {
     .box {
-        position: relative;
-        width: 230px;
-        height: 160px;
-        transform-style: preserve-3d;
-        /*animation: rotate 40s linear infinite;*/
+        width: 100%; /* Make the gallery take up the full width of the screen */
+        height: auto; /* Allow the height to adjust based on content */
     }
-    .box span:hover img{
-        transform: translateY(0) scale(1);
-    }
+
     .box span {
-        --translate-z: 325px;
+        --translate-z: 200px; /* Reduce the translate-z value for smaller screens */
     }
+    /*.box span {*/
+    /*    --translate-z: 325px;*/
+    /*}*/
 }
 @media (min-width: 1024px) {
     .box span {
