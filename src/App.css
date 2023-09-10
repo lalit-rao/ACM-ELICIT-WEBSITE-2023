@@ -9,20 +9,6 @@ body {
     background-color: black;
 }
 
-.heading {
-    text-align: center;
-    font-size: 2.4rem;
-    font-weight: 800;
-    margin: 5rem;
-    background: linear-gradient(90.98deg, #3D1F7A 45.76%, #D1C2F0 90.43%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .Navbar {
     position: fixed;
     z-index: 1000;

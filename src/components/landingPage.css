@@ -7,14 +7,14 @@
 
 .UpcomingEvents {
     height: 100vh;
-    margin: 50vh 0 0 0;
+    margin: 30vh 0 30vh 0;
     position: relative;
 }
 
 
 .PastEvents {
     height: 130vh;
-    margin-bottom: 100px;
+    margin-bottom: 15vh;
 }
 
 .CarouselLandingGallery {
@@ -22,11 +22,13 @@
     height: 60vh;
     display: flex;
     justify-content: center;
+    margin-top: 20vh;
 }
-/*
-.Convener {
-    position: relative;
-}*/
+
+    /*
+    .Convener {
+        position: relative;
+    }*/
 
 .MainHero {
     max-height: 100vh;

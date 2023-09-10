@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Readex+Pro:wght@700&display=swap');
+
+.heading-box,
+.sub-heading-box {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.heading {
+    font-size: 80px;
+    font-family: Readex Pro, serif;
+    color: white;
+}
+
+.heading2 {
+    background-image: linear-gradient(to right, rgba(61, 31, 122, 1),rgba(124, 100, 172, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub-heading {
+    font-size: 40px;
+    font-family: Readex Pro, serif;
+    color: white;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    margin: 50px 50px;
+    /* background-color: yellow; */
+    /* height: 400px; */
+}
+
+.container .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(209, 194, 240, 1);
+    border-radius: 50px;
+    transition: 0.3s;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 50);
+}
+
+/* .container .card:hover {
+	height: 450px;
+} */
+
+.container .card .image-box {
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    background: pink;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: 0.3s;
+    object-fit: cover;
+    margin: 0 10%;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.container .card:hover .image-box {
+    scale: 1.15;
+}
+
+.container .card .content {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-family: Readex Pro, serif;
+    transition: 0.3s;
+}
+
+/* .container .card:hover .content {
+	bottom: 20px;
+	height: 14%;
+} */
+
+.container .card .content h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+}
+
+.image {
+    width: 100%;
+}
+
+@media only screen and (min-width: 319px) and(max-width: 786px) {
+    .container {
+        flex-direction: column;
+    }
+}

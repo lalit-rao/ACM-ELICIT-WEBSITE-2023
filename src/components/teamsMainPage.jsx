@@ -1,15 +1,12 @@
-import UEP from './upcomingEventsPage.jsx'
 import Navbar from "./Navbar.jsx";
 import Footer from "./footer.jsx";
+import Teams from "./teams.jsx";
 
-
-import './upcomingEventsMainPage.css'
-
-const UpcomingEventsMainPage = () => {
+const TeamsMainPage = () => {
     return (
-        <div className="relative">
-            <section className="UEMP">
-                <UEP/>
+        <>
+            <section className="Teams">
+                <Teams/>
             </section>
             <section className="Navbar">
                 <Navbar/>
@@ -17,8 +14,8 @@ const UpcomingEventsMainPage = () => {
             <section className="Footer">
                 <Footer />
             </section>
-        </div>
+        </>
     );
 };
 
-export default UpcomingEventsMainPage;
+export default TeamsMainPage;

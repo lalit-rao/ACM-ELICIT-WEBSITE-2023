@@ -1,0 +1,12 @@
+.SponsorsPage {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ComingSoonPage {
+    color: #ffffff;
+    font-size: 100px;
+}

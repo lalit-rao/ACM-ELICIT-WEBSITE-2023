@@ -7,6 +7,7 @@ import LandingPageUE from "./landingPageUpcomingEvents.jsx";
 import LandingPagePE from "./landingPagePastEvents.jsx";
 import CarouselGallery from "./landingPageGallery.jsx";
 import Footer from "./footer.jsx";
+import Title from "./title.jsx";
 import "./landingPage.css";
 const LandingPage = () => {
     return (
@@ -24,11 +25,14 @@ const LandingPage = () => {
                 <Convener />
             </section>
             <section className="UpcomingEvents">
+                <Title firstWord={"Upcoming"} secondWord={"Events"} />
                 <LandingPageUE />
             </section>
             <section className="PastEvents">
+                <Title firstWord={"Past"} secondWord={"Events"} />
                 <LandingPagePE />
             </section>
+            <Title firstWord={""} secondWord={"Gallery"} />
             <section className="CarouselLandingGallery">
                 <CarouselGallery />
             </section>

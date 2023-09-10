@@ -28,17 +28,19 @@ function Navbar() {
 
         <header style={{backgroundColor: `rgba(0 0 0 / ${scrollOpacity})`,}}>
 
-            <img className="logoContainer"
-                 src={logo}
-                 alt="logo"
-                 height={70}
-            />
+            <a href="/">
+                <img className="logoContainer"
+                     src={logo}
+                     alt="logo"
+                     height={70}
+                />
+            </a>
             <nav ref={navRef}>
                 <a className="hover-underline-animation" href="/">Home</a>
                 <a className="hover-underline-animation" href="/Gallery">Gallery</a>
                 <a className="hover-underline-animation" href="/Upcoming-Events">Events</a>
-                <a className="hover-underline-animation" href="/#">Team</a>
-                <a className="hover-underline-animation" href="/#">Sponsors</a>
+                <a className="hover-underline-animation" href="/Team">Team</a>
+                <a className="hover-underline-animation" href="/Sponsors">Sponsors</a>
                 <button
                     className="nav-btn nav-close-btn"
                     onClick={showNavbar}>

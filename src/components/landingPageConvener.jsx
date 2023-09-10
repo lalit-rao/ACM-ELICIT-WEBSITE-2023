@@ -1,10 +1,13 @@
 import './landingPageConvener.css'
 import { Instagram, Linkedin } from '../assets/images/index.js'
+import Title from "./title.jsx";
 
 const LandingPageConvener = () => {
     return (
         <div className="containerof0">
-            {/*<Title firstWord={""} secondWord={"Convener"} />*/}
+            <div className="title-convener-1">
+                <Title firstWord={""} secondWord={"Convener"} />
+            </div>
             <div className="containerof-1">
                 <div className="card0">
                     <div className="card-inner0">
@@ -29,7 +32,10 @@ const LandingPageConvener = () => {
                     </div>
                 </div>
             </div>
-            {/*<Title firstWord={""} secondWord={"Co-conveners"} />*/}
+            <div className="title-convener-2">
+                <Title firstWord={""} secondWord={"Co-Conveners"} />
+
+            </div>
             <div className="containerof-20">
                 <div className="card0">
                     <div className="card-inner0">

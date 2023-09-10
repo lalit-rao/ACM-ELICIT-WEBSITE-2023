@@ -152,6 +152,16 @@
     height: auto;
 }
 
+.title-convener-1 .title-heading {
+    position: relative;
+    top: 20px;
+}
+
+.title-convener-2 .title-heading {
+    position: relative;
+    top: 100px;
+}
+
 @media (max-width: 768px) {
 
     .back0 a {

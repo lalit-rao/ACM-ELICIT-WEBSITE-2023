@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&family=Roboto:wght@400;500;700&display=swap');
+
+.title-heading-box {
+    text-align: center;
+    font-size: 4.5em;
+    margin-bottom: 1.5em;
+    /* Add margin-top if needed */
+}
+
+.title-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif; /* Use a font stack with fallback */
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 5px 0 -1.5px white;
+}
+
+.title-heading2 {
+    background: linear-gradient(91deg, #3D1F7A 45.76%, #D1C2F0 80.43%);
+    text-shadow: 3px 0 linear-gradient(91deg, #3D1F7A 45.76%, #D1C2F0 80.43%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif; /* Use a font stack with fallback */
+    font-weight: 700;
+    line-height: normal;
+}
