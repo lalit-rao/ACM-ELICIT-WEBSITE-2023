@@ -44,6 +44,8 @@
     object-fit: cover;
     transition: 0.7s ease-in;
     border-radius: 20px;
+    box-shadow: 0 0 10px 1px #a257db;
+
 }
 
 

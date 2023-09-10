@@ -7,14 +7,14 @@
 
 .UpcomingEvents {
     height: 100vh;
-    margin: 45vh 0 0 0;
+    margin: 50vh 0 0 0;
     position: relative;
 }
 
 
 .PastEvents {
     height: 130vh;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .CarouselLandingGallery {
@@ -40,13 +40,13 @@
 
     .PastEvents {
         height: auto;
-        margin-bottom: 200px;
+        /*margin-bottom: 200px;*/
     }
 
     .CarouselLandingGallery {
         position: relative;
         max-width: 80%;
-        margin: 0 auto;
+        margin: 0 auto 10vh;
         /*overscroll-behavior-x: contain;*/
         height: auto;
         display: flex;
@@ -56,6 +56,16 @@
     .Convener {
         position: relative;
         margin-bottom: 200px;
-        height: 150vh;
+        height: auto;
+    }
+
+    .UpcomingEvents {
+        height: auto;
+        margin: 0 0 30vh;
+        /*margin: 120vh 0 0 0;*/
+        position: relative;
+    }
+    .Footer {
+        height: auto;
     }
 }

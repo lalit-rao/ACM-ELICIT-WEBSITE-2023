@@ -107,9 +107,9 @@
         transform: translateY(60vh);
     }
 
-    .footer {
+    /*.footer {
         transform: translateY(60vh);
-    }
+    }*/
 
     .ElicitEventCard:nth-child(2) {
         margin-top: -60vh;

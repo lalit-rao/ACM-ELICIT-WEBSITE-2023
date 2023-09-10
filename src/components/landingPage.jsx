@@ -6,7 +6,7 @@ import Convener from "./landingPageConvener.jsx";
 import LandingPageUE from "./landingPageUpcomingEvents.jsx";
 import LandingPagePE from "./landingPagePastEvents.jsx";
 import CarouselGallery from "./landingPageGallery.jsx";
-// import Footer from "./footer.jsx";
+import Footer from "./footer.jsx";
 import "./landingPage.css";
 const LandingPage = () => {
     return (
@@ -20,9 +20,6 @@ const LandingPage = () => {
             <section className="CounterCards">
                 <CounterCards />
             </section>
-            {/*<section className="MainHero">
-                <MainHero />
-            </section>*/}
             <section className="Convener">
                 <Convener />
             </section>
@@ -35,9 +32,9 @@ const LandingPage = () => {
             <section className="CarouselLandingGallery">
                 <CarouselGallery />
             </section>
-            {/*<section className="Footer">
+            <section className="Footer">
                 <Footer />
-            </section>*/}
+            </section>
         </div>
     );
 };
