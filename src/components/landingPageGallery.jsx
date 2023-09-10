@@ -1,6 +1,5 @@
 import './landingPageGallery.css';
 import {hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero8} from '../assets/images/index.js';
-import Title from "./title.jsx";
 
 const LandingPageGallery = () => {
     const images = [

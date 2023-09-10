@@ -40,48 +40,6 @@ import {Autoplay, EffectCoverflow} from 'swiper/modules';
 const events = () => {
     return (
         <>
-            <div id="swiper-container" className="swiper-container">
-                <p className="heading">GAMERS ASYLUM</p>
-                <div className="border-box">
-                    <Swiper
-                        effect={'coverflow'}
-                        grabCursor={true}
-                        centeredSlides={true}
-                        // slidesPerView={'auto'}
-                        slidesPerView={3}
-                        loop={true}
-                        coverflowEffect={{
-                            rotate: 50, stretch: 0, depth: 100, modifier: 1, slideShadows: true,
-                        }}
-                        autoplay={{
-                            delay: 1500, disableOnInteraction: false,
-                        }}
-                        keyboard={{
-                            enabled: true,
-                        }}
-                        // pagination={true}
-                        modules={[Autoplay, EffectCoverflow]}
-                        // navigation={true}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <img src={GA1}/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img src={GA6}/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img src={GA7}/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img src={GA8}/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img src={GA9}/>
-                        </SwiperSlide>
-                    </Swiper>
-                </div>
-            </div>
             <div className="swiper-container">
                 <p className="heading">Compute</p>
                 <div className="border-box">
@@ -242,6 +200,47 @@ const events = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <img src={A5}/>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
+            </div>
+            <div className="swiper-container">
+                <p className="heading">GAMERS ASYLUM</p>
+                <div className="border-box">
+                    <Swiper
+                        effect={'coverflow'}
+                        grabCursor={true}
+                        centeredSlides={true}
+                        slidesPerView={'auto'}
+                        loop={true}
+                        coverflowEffect={{
+                            rotate: 50, stretch: 0, depth: 100, modifier: 1, slideShadows: true,
+                        }}
+                        autoplay={{
+                            delay: 1500, disableOnInteraction: false,
+                        }}
+                        keyboard={{
+                            enabled: true,
+                        }}
+                        // pagination={true}
+                        modules={[Autoplay, EffectCoverflow]}
+                        // navigation={true}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <img src={GA1}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={GA6}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={GA7}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={GA8}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={GA9}/>
                         </SwiperSlide>
                     </Swiper>
                 </div>

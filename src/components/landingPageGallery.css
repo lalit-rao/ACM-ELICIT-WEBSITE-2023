@@ -77,7 +77,17 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .box span {
-        --translate-z: 390px;
+        --translate-z: 21em;
+    }
+    .box {
+        position: relative;
+        width: 15.5em; /* 230px */
+        height: 10.5em;
+        transform-style: preserve-3d;
+        /*animation: rotate 40s linear infinite;*/
+    }
+    .box span:hover img{
+        transform: translateY(-15px) scale(1.1);
     }
 }
 
