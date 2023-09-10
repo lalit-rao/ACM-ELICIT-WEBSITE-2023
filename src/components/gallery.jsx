@@ -15,20 +15,11 @@ const gallery = () => (
         <section className="Navbar">
             <Navbar/>
         </section>
-        {/*<section className="Gallery">
-            <Gallery />
-        </section>*/}
-        {/*<section className="Collage">
-            <Collage />
-        </section>*/}
         <section className="Events">
             <Events/>
         </section>
-        {/*<section className="trial">
-            <Trial />
-        </section>*/}
         <section className="trial">
-            <Collage1/>
+            <Collage1 />
         </section>
     </main>
 );

@@ -96,6 +96,7 @@ nav {
         justify-content: center;
         gap: 1.5rem;
         transition: 1s;
+        overflow: auto;
     }
 
     header .responsive_nav {

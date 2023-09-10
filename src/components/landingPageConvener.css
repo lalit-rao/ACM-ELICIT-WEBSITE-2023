@@ -73,7 +73,7 @@
 }
 
 .back0 {
-    background: rgba(223, 221, 230, 0.69);
+    background: rgba(224, 161, 242, 0.8);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     color: #333;
@@ -149,6 +149,7 @@
 .containerof-20 {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -167,8 +168,9 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        overflow: hidden;
+        /*overflow: hidden;*/
         margin-bottom: 200px;
+        height: auto;
     }
 
 }

@@ -1,0 +1,219 @@
+.RTEMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    font-size: 100%;
+    overflow: hidden;
+}
+
+.RTECalender {
+    height: 100%;
+    width: max-content;
+    background-color: #111111;
+    border: 2px solid #222222;
+    color: #d0d0d0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    box-shadow: 0 8px 32px 0 rgba(92, 46, 184, 0.37);
+}
+
+.RTEMonthName {
+    margin-bottom: 5%;
+}
+
+.MonthSeparator {
+    width: 100%;
+    height: 2px;
+    background-color: #222222;
+    border: none;
+    margin-bottom: 5%;
+}
+
+.RTEDatesContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+}
+
+.DaysName {
+    text-align: center;
+}
+
+.EmptyDateBlock {
+    pointer-events: none;
+}
+
+.DisabledDate {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    pointer-events: none;
+}
+
+.ActiveDate {
+    position: relative;
+    background: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    color: #999999;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.ActiveDate::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #3d1f7a;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    z-index: -1;
+    transform-origin: right;
+}
+
+.ActiveDate:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.RTESelectedDate {
+    background-color: #3d1f7a;
+}
+
+.RTEContentContainer {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2%;
+    background: rgba( 34, 34, 34, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.RTEPosters {
+    width: 12em;
+    border: 2px solid white;
+    pointer-events: none;
+}
+
+.RTEEventTitle {
+    margin-top: 1.5%;
+    color: white;
+    font-size: 145%;
+}
+
+.RTEEventDetail {
+    width: 50vw;
+    color: white;
+    margin: 2% 0;
+}
+
+.RTERegisterButton {
+    padding: 0.6em 2em;
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    color: white;
+    background: #111111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.4);
+}
+
+.RTERegisterButton:before {
+    content: "";
+    background: linear-gradient(
+            45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingButton 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowingButton {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.RTERegisterButton:active {
+    color: #000;
+}
+
+.RTERegisterButton:active:after {
+    background: transparent;
+}
+
+.RTERegisterButton:hover:before {
+    opacity: 1;
+}
+
+.RTERegisterButton:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .RTEContentContainer {
+        width: 95vw;
+        padding: 6% 0;
+    }
+
+    .RTEPosters {
+        max-width: 40%;
+        margin: 2% 0;
+    }
+
+    .RTEEventDetail {
+        width: 80vw;
+    }
+}

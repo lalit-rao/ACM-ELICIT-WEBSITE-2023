@@ -1,0 +1,143 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.UpcomingEventsMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UpcomingEventstoggleContainer {
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    border: 2px solid #222222;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(34, 34, 34, 0.55);
+    position: relative;
+}
+
+.UpcomingEventsSelectedtoggle {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 1em;
+    background-image: linear-gradient(to right bottom, #3d1f7a, #47268a, #522e99, #5c35aa, #673dba, #7249c4, #7e55ce, #8961d8, #9874dd, #a687e2, #b49ae7, #c2adeb);
+}
+
+.UpcomingEventsSelectedtoggle:before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    z-index: -1;
+    border-radius: 1em;
+    filter: blur(5px);
+    background: linear-gradient(to right bottom, #3d1f7a, #47268a, #522e99, #5c35aa, #673dba, #7249c4, #7e55ce, #8961d8, #9874dd, #a687e2, #b49ae7, #c2adeb);
+}
+
+.RTESelected {
+    background-image: linear-gradient(to right bottom, #3d1f7a, #47268a, #522e99, #5c35aa, #673dba, #7249c4, #7e55ce, #8961d8, #9874dd, #a687e2, #b49ae7, #c2adeb);
+    animation: MoveLeft 0.6s ease-in-out;
+    left: 0%;
+}
+
+.RTESelected::before {
+    background: linear-gradient(to right bottom, #3d1f7a, #47268a, #522e99, #5c35aa, #673dba, #7249c4, #7e55ce, #8961d8, #9874dd, #a687e2, #b49ae7, #c2adeb);
+}
+
+.ElicitSelected {
+    background-image: linear-gradient(to left bottom, #3d1f7a, #47268a, #522e99, #5c35aa, #673dba, #7249c4, #7e55ce, #8961d8, #9874dd, #a687e2, #b49ae7, #c2adeb);
+    animation: MoveRight 0.6s ease-in-out;
+    left: 50%;
+}
+
+.ElicitSelected::before {
+    background-image: linear-gradient(to left bottom, #3d1f7a, #47268a, #522e99, #5c35aa, #673dba, #7249c4, #7e55ce, #8961d8, #9874dd, #a687e2, #b49ae7, #c2adeb);
+}
+
+@keyframes MoveLeft {
+    0% {
+        width: 45%;
+        left: 55%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        left: 0%;
+    }
+}
+
+@keyframes MoveRight {
+    0% {
+        width: 45%;
+        left: -0.001%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        left: 50%;
+    }
+}
+
+.UpcomingEventstoggle {
+    background: none;
+    border: none;
+    color: #eceff1;
+    z-index: 2;
+    padding: 1em;
+    font-size: 1.15em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .UpcomingEventstoggle {
+        padding: 1em;
+        font-size: 0.75em;
+    }
+}
+
+.UpcomingEventsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.RTEContainer {
+    transition: transform 0.5s;
+    margin-bottom: 6%;
+}
+
+.ElicitContainer {
+    display: none;
+    transform: translateX(100vw);
+    transition: transform 0.5s;
+}
+
+.RTEMoveLeft {
+    position: absolute;
+    transform: translateX(-100vw);
+}
+
+.ElicitMoveLeft {
+    transform: translateX(0);
+}
+
+.RTEMoveRight {
+    transform: translateX(0);
+}
+
+.ElicitMoveRight {
+    transform: translateX(100vw);
+}
+
+.ShowElicit {
+    display: block;
+}
+
+.HideElicit {
+    display: none;
+}

@@ -1,0 +1,122 @@
+.ElicitMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.ElicitDateContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 70vw;
+    margin-bottom: 2%;
+}
+
+.ElicitDateChangeButton {
+    color: #eceff1;
+    font-size: 1.3em;
+    cursor: pointer;
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.ElicitDateChangeButton::selection {
+    background: none;
+}
+
+.ElicitDateChangeButonDisabled {
+    color: #515151;
+}
+
+.ElicitDateHeading {
+    color: #eceff1;
+    width: 200px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.ElicitCardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.ElicitEventCard {
+    padding: 1.5em 2em;
+    color: #eceff1;
+    width: 70vw;
+    background: rgba(59, 59, 59, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(92, 46, 184, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: sticky;
+    bottom: var(--bottom-offset);
+    display: grid;
+    grid-template-columns: 12.96vw 1fr;
+    gap: 1.25em;
+    transition: all 0.3s;
+}
+
+.ElicitEventPosterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ElicitEventPoster {
+    width: 100%;
+}
+
+.ElicitContentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.ElicitEventTitle {
+    margin: 2% 0;
+}
+
+.ElicitRegisterButton {
+    margin: 2% 0;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(43, 43, 43, 0.37);
+    color: #eceff1;
+    padding: 1vh 5vw;
+    border-radius: 20px;
+}
+
+.ElicitRegisterButton:hover {
+    background-color: rgba(63, 63, 63, 0.37);
+}
+
+@media only screen and (max-width: 768px) {
+    .ElicitEventCard {
+        width: 90vw;
+        grid-template-columns: none;
+        grid-template-rows: 34.56vw 1fr;
+    }
+    .ElicitEventCard:not(:first-child) {
+        transform: translateY(60vh);
+    }
+
+    .footer {
+        transform: translateY(60vh);
+    }
+
+    .ElicitEventCard:nth-child(2) {
+        margin-top: -60vh;
+        position: static;
+    }
+
+    .ElicitEventPoster {
+        width: auto;
+        height: 100%;
+    }
+}

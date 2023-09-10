@@ -18,7 +18,7 @@
     font-weight: bolder;
 }
 
-#animated-box .row {
+#animated-box .cc-row {
     display: flex;
     max-width: 80%;
     margin: 0 auto;
@@ -27,7 +27,7 @@
     top: 70px;*/
 }
 
-#animated-box .row .column {
+#animated-box .cc-row .cc-column {
     position: relative;
     top: -35px;
     height: 120px;
@@ -39,13 +39,13 @@
     background-color: rgba(81, 34, 159, 0.9);
 }
 
-#animated-box .card {
+#animated-box .cc-card {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-#animated-box .card-name {
+#animated-box .cc-card-name {
     font-size: 1.2rem;
     font-weight: bolder;
     letter-spacing: 0.05rem;
@@ -55,7 +55,7 @@
 }
 
 @media only screen and (min-width: 319px) and (max-width: 425px) {
-    #animated-box .row {
+    #animated-box .cc-row {
         display: flex;
         max-width: 80%;
         margin: 0 auto;
@@ -64,7 +64,7 @@
         position: relative;
         top: 70px;
     }
-    #animated-box .row .column {
+    #animated-box .cc-row .cc-column {
         display: block;
         height: 110px;
         width: 220px;
@@ -73,14 +73,14 @@
 }
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
-    #animated-box .row {
+    #animated-box .cc-row {
         display: flex;
         max-width: 80%;
         margin: 0 auto;
         flex-wrap: wrap;
         justify-content: center;
     }
-    #animated-box .row .column {
+    #animated-box .cc-row .cc-column {
         display: block;
         height: 140px;
         width: 250px;
@@ -94,14 +94,14 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    #animated-box .row {
+    #animated-box .cc-row {
         display: flex;
         max-width: 80%;
         margin: 0 auto;
         flex-wrap: wrap;
         justify-content: center;
     }
-    #animated-box .row .column {
+    #animated-box .cc-row .cc-column {
         display: block;
         height: 140px;
         width: 250px;
@@ -116,7 +116,7 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1330px) {
-    #animated-box .row .column {
+    #animated-box .cc-row .cc-column {
         margin-right: 20px;
     }
 }

@@ -34,9 +34,9 @@ function Navbar() {
                  height={70}
             />
             <nav ref={navRef}>
-                <a className="hover-underline-animation" href="/#">Home</a>
-                <a className="hover-underline-animation" href="/#">Gallery</a>
-                <a className="hover-underline-animation" href="/#">Events</a>
+                <a className="hover-underline-animation" href="/">Home</a>
+                <a className="hover-underline-animation" href="/Gallery">Gallery</a>
+                <a className="hover-underline-animation" href="/Upcoming-Events">Events</a>
                 <a className="hover-underline-animation" href="/#">Team</a>
                 <a className="hover-underline-animation" href="/#">Sponsors</a>
                 <button

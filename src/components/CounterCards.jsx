@@ -32,49 +32,49 @@ export default function App() {
     return (
         <>
             <section id="animated-box">
-                <div className="row">
-                    <div className="column">
-                        <div className="card">
+                <div className="cc-row">
+                    <div className="cc-column">
+                        <div className="cc-card">
                             <p><i className="fa fa-user fa-lg"></i></p>
                             <div className="counterCards-text">
                                 <motion.h1>{rounded1}</motion.h1>
                                 <p>+</p>
                             </div>
-                            <p className="card-name">Participants</p>
+                            <p className="cc-card-name">Participants</p>
                         </div>
                     </div>
 
-                    <div className="column">
-                        <div className="card">
+                    <div className="cc-column">
+                        <div className="cc-card">
                             <p><i className="fa fa-check fa-lg"></i></p>
                             <div className="counterCards-text">
                                 <motion.h1>{rounded2}</motion.h1>
                                 <p>+</p>
                             </div>
-                            <p className="card-name">Events</p>
+                            <p className="cc-card-name">Events</p>
                         </div>
                     </div>
 
-                    <div className="column">
-                        <div className="card">
+                    <div className="cc-column">
+                        <div className="cc-card">
                             <p><i className="fa-solid fa-store fa-lg"></i></p>
                             <div className="counterCards-text">
                                 <motion.h1>{rounded3}</motion.h1>
                                 <p>+</p>
                             </div>
-                            <p className="card-name">Sponsors</p>
+                            <p className="cc-card-name">Sponsors</p>
                         </div>
                     </div>
 
-                    <div className="column">
-                        <div className="card">
+                    <div className="cc-column">
+                        <div className="cc-card">
                             <p><i className="fa-solid fa-face-smile fa-lg"></i></p>
                             <div className="counterCards-text">
                                 <motion.h1>{rounded4}</motion.h1>
                                 <p className="space">K </p>
                                 <p>+</p>
                             </div>
-                            <p className="card-name">Prize Pool </p>
+                            <p className="cc-card-name">Prize Pool </p>
                         </div>
                     </div>
                 </div>
