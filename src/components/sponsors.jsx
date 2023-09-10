@@ -1,4 +1,4 @@
-import "./Sponsors.css";
+import "./sponsors.css";
 
 const Sponsors = () => {
     return (
