@@ -1,7 +1,7 @@
 import { useState } from "react";
 import RTEContainer from "./RTE.jsx";
 import ElicitContainer from "./Elicit.jsx";
-import "./UpcomingEventsPage.css";
+import "./upcomingEventsPage.css";
 
 const UpcomingEventsPage = () => {
     const [pageState, setPageState] = useState("RTE");

@@ -7,7 +7,10 @@
 
 .UpcomingEvents {
     height: 100vh;
+    margin: 45vh 0 0 0;
+    position: relative;
 }
+
 
 .PastEvents {
     height: 130vh;

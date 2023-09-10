@@ -32,7 +32,7 @@ export default function Hero() {
                 modules={[EffectFade, Autoplay, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide>
+                <SwiperSlide id="heroVideo">
                     <video loop preload autoPlay muted src={Teaser}>
                     </video>
                 </SwiperSlide>

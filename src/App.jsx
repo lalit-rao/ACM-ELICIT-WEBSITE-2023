@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import GalleryPage from "./components/gallery.jsx";
 import LandingPage from "./components/landingPage.jsx";
-import UpcomingEventsPage from "./components/upcomingEventsMainPage.jsx";
+// import UpcomingEventsPage from "./components/upcomingEventsMainPage.jsx";
 
 
 import "./App.css";
 import UpcomingEventsMainPage from "./components/upcomingEventsMainPage.jsx";
+import GalleryPage from "./components/gallery.jsx";
 
 const App = () => {
     return (

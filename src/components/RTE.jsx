@@ -15,7 +15,7 @@ const RTEContainer = () => {
 
     function CarouselScript() {
         const scriptTag = document.createElement("script");
-        scriptTag.src = "/src/upcoming-events-page/StackedCards.js";
+        scriptTag.src = "/src/components/StackedCards.js";
         document.body.appendChild(scriptTag);
     }
 

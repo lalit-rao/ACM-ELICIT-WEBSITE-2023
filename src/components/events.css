@@ -8,7 +8,7 @@
 }
 
 .swiper-container {
-    width: 80%;
+    width: 90%;
     height: 88vh;
     margin-left: auto;
     margin-right: auto;
@@ -20,6 +20,7 @@
     padding-top: 4rem;
     padding-bottom: 2rem;
     max-width: 80%;
+    overflow: hidden;
 }
 
 .swiper-container .swiper .swiper-slide {
