@@ -24,14 +24,10 @@ body {
     margin-bottom: 50px;
 }
 
-/*.Gallery {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 50px;
-    height: auto;
+/*
+.RootDiv {
+    background-image: url("./assets/background-svg.svg");
+    height: 100%;
+    background-repeat: repeat-y;
+    z-index: -10;
 }*/
-
-.Collage {
-    height: 100vh;
-}
-
