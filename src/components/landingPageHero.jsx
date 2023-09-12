@@ -34,7 +34,7 @@ export default function Hero() {
                 className="mySwiper"
             >
                 <SwiperSlide id="landingPageHero">
-                    <video loop preload autoPlay muted src={HeroVid}>
+                    <video preload autoPlay muted src={HeroVid}>
                     </video>
                 </SwiperSlide>
             </Swiper>
