@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/readex-pro": "^5.0.8",
     "framer-motion": "^10.16.4",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

@@ -1,5 +1,5 @@
 import UEP from './upcomingEventsPage.jsx'
-import Navbar from "./Navbar.jsx";
+// import Navbar from "./Navbar.jsx";
 import Footer from "./footer.jsx";
 
 
@@ -11,9 +11,9 @@ const UpcomingEventsMainPage = () => {
             <section className="UEMP">
                 <UEP/>
             </section>
-            <section className="Navbar">
+            {/*<section className="Navbar">
                 <Navbar/>
-            </section>
+            </section>*/}
             <section className="Footer">
                 <Footer />
             </section>

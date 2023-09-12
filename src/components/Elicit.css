@@ -71,6 +71,7 @@
 
 .ElicitEventPoster {
     width: 100%;
+    padding: 0 4.5vw 0 0;
 }
 
 .ElicitContentContainer {
@@ -119,5 +120,8 @@
     .ElicitEventPoster {
         width: auto;
         height: 100%;
+    }
+    .ElicitEventDetail, .ElicitEventPosterContainer, .ElicitRegisterButton {
+        width: 80vw;
     }
 }

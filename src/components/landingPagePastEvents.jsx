@@ -1,4 +1,4 @@
-// import "@fontsource/readex-pro";
+import "@fontsource/readex-pro";
 import decrypt from "../assets/images/PastEvents/decrypt.jpg";
 import defi from "../assets/images/PastEvents/Defi.jpg";
 import gamers from "../assets/images/PastEvents/Gamers.jpg";
