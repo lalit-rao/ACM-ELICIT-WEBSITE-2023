@@ -3,6 +3,8 @@
     top: 50px;
 }
 
-.footer-UEMP {
-    transform: translateY(80vh);
+@media only screen and (max-width: 768px) {
+    .footer-UEMP {
+        transform: translateY(85vh);
+    }
 }
