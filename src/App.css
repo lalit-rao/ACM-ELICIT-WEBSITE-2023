@@ -24,10 +24,9 @@ body {
     margin-bottom: 50px;
 }
 
-/*
 .RootDiv {
     background-image: url("./assets/background-svg.svg");
     height: 100%;
     background-repeat: repeat-y;
-    z-index: -10;
-}*/
+    z-index: -100;
+}
