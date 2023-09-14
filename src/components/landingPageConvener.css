@@ -179,7 +179,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         /*overflow: hidden;*/
-        margin-bottom: 200px;
+        /*margin-bottom: 200px;*/
         height: auto;
     }
 
