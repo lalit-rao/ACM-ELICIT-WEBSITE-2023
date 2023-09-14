@@ -19,12 +19,7 @@ body {
 }
 
 body {
-    background: #ffffff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
+    background: #000000;
 }
 
 #heroVideo .swiper {
@@ -35,7 +30,7 @@ body {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,30 +46,4 @@ body {
 
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     background-color: transparent;
-}
-
-.button-class {
-    position: relative;
-    top: -400px;
-    left: 45%;
-    height: 50px;
-    width: 120px;
-    background-color: rgba(255, 255, 255, 0.82);
-    z-index: 200;
-    border-radius: 15em;
-    cursor: pointer;
-}
-
-.button-class a {
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.button-class:hover {
-    color: #000;
-    background-color: #fff;
-    transform: translateY(-10px);
-    transition: 0.5s ease-in-out;
 }
