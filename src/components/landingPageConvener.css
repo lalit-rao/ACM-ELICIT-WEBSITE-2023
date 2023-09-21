@@ -15,6 +15,12 @@
     background-color: transparent;
     border-radius: 15px;
     transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s;
+    -o-transform-style: preserve-3d;
+    /*-o-transition: -o-transform 1s;*/
+    -moz-transform-style: preserve-3d;
+    /*-moz-transition: -moz-transform 1s;*/
 }
 
 .card-inner0 {
@@ -23,6 +29,10 @@
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
 }
 
 .front0,
@@ -80,6 +90,9 @@
     color: #333;
     padding: 20px 30px;
     transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg); /* Add -webkit prefix for Safari */
 }
 
