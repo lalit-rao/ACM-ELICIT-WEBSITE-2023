@@ -39,7 +39,7 @@ const Footer = () => {
                             <img src={elicit} className="elicit" />
                         </a>
                     </>
-                    <div className="credits">Developed by Ayush, Kunal, Lalit and Siddharth</div>
+                    <div className="credits">Developed by Ayush, Kunal, Lalit, Siddharth and Rohan</div>
                     <div className="sb__footer-copyright">
                         <p>Copyright ©</p>
                     </div>
