@@ -42,6 +42,7 @@
     flex-direction: column;
     justify-content: flex-end;
     color: #fff;
+    transform: rotateY(0deg);
     background-repeat: no-repeat; /* Fix potential background rendering issue */
 }
 
