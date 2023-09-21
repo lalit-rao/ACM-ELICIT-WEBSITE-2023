@@ -14,6 +14,7 @@
     perspective: 1000px;
     background-color: transparent;
     border-radius: 15px;
+    transform: rotateY(0deg);
 }
 
 .card-inner0 {
