@@ -1,6 +1,6 @@
 import { ScrollingPosters, ScrollingOffSetPosters } from "./ScrollingPosters.jsx";
-import poster1 from "../assets/images/RTE23Posters/Elicit.png";
-import poster2 from "../assets/images/RTE23Posters/ComingSoon.jpeg";
+import poster1 from "../assets/images/RTE23Posters/Elicit.webp";
+import poster2 from "../assets/images/RTE23Posters/ComingSoon.webp";
 
 import './landingPageUpcomingEvents.css'
 const landingPageUpcomingEvents = () => {

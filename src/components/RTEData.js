@@ -1,7 +1,7 @@
-import MurderMystery from "../assets/images/RTE23Posters/MurderMystery.jpg";
-import Elevate from "../assets/images/RTE23Posters/Elevate.png";
-import Decode from "../assets/images/RTE23Posters/Decode.png";
-import FutsalPoster from "../assets/images/RTE23Posters/Futsal.png";
+import MurderMystery from "../assets/images/RTE23Posters/MurderMystery.webp";
+import Elevate from "../assets/images/RTE23Posters/Elevate.webp";
+import Decode from "../assets/images/RTE23Posters/Decode.webp";
+import FutsalPoster from "../assets/images/RTE23Posters/Futsal.webp";
 
 export const RTEEventsList = {
   RTEEvent1: {

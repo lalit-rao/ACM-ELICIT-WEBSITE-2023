@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { RTEEventsList } from "./RTEData.js";
-import poster1 from "../assets/images/RTE23Posters/MurderMystery.jpg";
-import poster2 from "../assets/images/RTE23Posters/Elevate.png";
-import poster3 from "../assets/images/RTE23Posters/Elicit.png";
-import poster4 from "../assets/images/RTE23Posters/Futsal.png";
-import poster5 from "../assets/images/RTE23Posters/Decode.png";
+import poster1 from "../assets/images/RTE23Posters/MurderMystery.webp";
+import poster2 from "../assets/images/RTE23Posters/Elevate.webp";
+import poster3 from "../assets/images/RTE23Posters/Elicit.webp";
+import poster4 from "../assets/images/RTE23Posters/Futsal.webp";
+import poster5 from "../assets/images/RTE23Posters/Decode.webp";
 import "./StackedCards.css";
 import "./RTE.css";
 
