@@ -35,15 +35,13 @@ import A2 from './Arduino/AW2.jpg'
 import A3 from './Arduino/AW3.jpg'
 import A4 from './Arduino/AW4.jpg'
 import A5 from './Arduino/AW5.jpg'
-import MI1 from './mainImage.png'
+// import MI1 from './mainImage.png'
 import GitHub from './Convener/github.svg'
 import Linkedin from './Convener/linkedin.svg'
 import Instagram from './Convener/instagram.svg'
 import Person1 from './Convener/soham.webp';
 import Person2 from './Convener/nikunj.webp';
-/*import decrypt from './PastEvents/decrypt.jpg';
-import defi from './PastEvents/defi.jpg';
-import eminent from './PastEvents/eminent.jpg';*/
+import Person3 from './Convener/harshit.webp';
 import Teaser from './teaser.mp4'
 import HeroVid from './Hero-Vid.mp4'
 
@@ -87,11 +85,11 @@ export {
     A3,
     A4,
     A5,
-    MI1,
     HeroVid,
     GitHub,
     Linkedin,
     Instagram,
     Person1,
     Person2,
+    Person3,
 };
