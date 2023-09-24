@@ -37,7 +37,7 @@ class Collage1 extends Component {
                 {this.renderCard(hero4, 10)}
                 {this.renderCard(hero5, 11)}
                 {this.renderCard(hero2, 12)}
-                <div className="card card-main" onClick={() => this.handleImageClick(this.state.largeImageSrc)}>
+                <div className="card card-main" onClick={() => this.handleImageClick(MI1)}>
                     <img src={this.state.largeImageSrc} alt="Main Image" />
                 </div>
             </section>
