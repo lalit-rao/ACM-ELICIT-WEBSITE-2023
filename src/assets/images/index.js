@@ -35,7 +35,7 @@ import A2 from './Arduino/AW2.jpg'
 import A3 from './Arduino/AW3.jpg'
 import A4 from './Arduino/AW4.jpg'
 import A5 from './Arduino/AW5.jpg'
-// import MI1 from './mainImage.png'
+import MI1 from './mainImage.png'
 import GitHub from './Convener/github.svg'
 import Linkedin from './Convener/linkedin.svg'
 import Instagram from './Convener/instagram.svg'
@@ -92,4 +92,5 @@ export {
     Person1,
     Person2,
     Person3,
+    MI1,
 };
