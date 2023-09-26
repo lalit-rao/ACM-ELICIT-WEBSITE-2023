@@ -1,4 +1,4 @@
-import Poster1 from "../assets/images/Elicit.png";
+import Poster1 from "../assets/images/RTE23Posters/Elicit.webp";
 
 export const ElicitEventData = {
   30: [

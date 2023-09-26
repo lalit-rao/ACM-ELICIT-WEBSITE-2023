@@ -1,7 +1,7 @@
 .UEMP {
     position: relative;
     top: 50px;
-    overflow-x: hidden;
+    overflow-scrolling: auto;
 }
 
 @media only screen and (max-width: 768px) {

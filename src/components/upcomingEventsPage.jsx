@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import RTEContainer from "./RTE.jsx";
 import ElicitContainer from "./Elicit.jsx";
 import "./upcomingEventsPage.css";
