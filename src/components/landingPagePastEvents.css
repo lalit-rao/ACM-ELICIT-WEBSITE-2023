@@ -1,7 +1,7 @@
-.body-div{
+.body-div {
     background-color: #030303;
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 12%;
     color: aliceblue;
     font-family: Readex pro, sans-serif;
@@ -28,7 +28,7 @@
     }
 }
 
-.mob1{
+.mob1 {
     display: grid;
     grid-template-rows: 1.5fr 1fr;
     width: 98%;
@@ -37,14 +37,14 @@
     margin-bottom: 0;
 }
 
-.three-ti-one-ev{
+.three-ti-one-ev {
     display: grid;
     grid-template-columns: 1fr 3fr;
     height: 100%;
     overflow: hidden;
 }
 
-.ti1{
+.ti1 {
     border-radius: 50px 0px 0px 0px;
     opacity: 0.6;
     background: linear-gradient(180deg, #9470DB 0%, rgba(148, 112, 219, 0.00) 100%);
@@ -53,35 +53,35 @@
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.two-ti-one-ev{
+.two-ti-one-ev {
     display: grid;
     grid-template-rows: 1fr 2.3fr;
 }
 
-.two-ti{
+.two-ti {
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 90%;
     overflow: hidden;
 }
 
-.ti2{
+.ti2 {
     border-radius: 0px 0px 30px 30px;
     background: linear-gradient(4deg, #1F0F3D 0%, rgba(31, 15, 61, 0.00) 100%);
     height: 100%;
-    width:89%;
+    width: 89%;
     animation: 1.2s ease-out 0s 1 popdown;
 }
 
-.ti3{
+.ti3 {
     border-radius: 70px 70px 0px 0px;
     background: linear-gradient(180deg, #3D1F7A 0%, rgba(61, 31, 122, 0.00) 100%);
-    width: 100% ;
-    height:100%;
+    width: 100%;
+    height: 100%;
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.ev5{
+.ev5 {
     position: relative;
     border-radius: 70px 0px;
     background: linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
@@ -92,38 +92,38 @@
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.997);
 }
 
-.four-ti-two-ev{
+.four-ti-two-ev {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     width: 100%;
 }
 
-.two-ti-ev1{
+.two-ti-ev1 {
     display: grid;
     grid-template-rows: 1fr 2.2fr;
     width: 94%;
 }
 
-.two-ti-ev2{
+.two-ti-ev2 {
     display: grid;
     grid-template-rows: 1.4fr 1fr;
 }
 
-.two-ti1{
+.two-ti1 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     height: 88%;
     overflow: hidden;
 }
 
-.two-ti2{
+.two-ti2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     height: 100%;
     overflow: hidden;
 }
 
-.ti4{
+.ti4 {
     border-radius: 0px 19px 19px 19px;
     background: linear-gradient(180deg, #1F0F3D 0%, rgba(31, 15, 61, 0.00) 100%);
     height: 100%;
@@ -131,19 +131,19 @@
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.ti5{
+.ti5 {
     fill: linear-gradient(180deg, rgba(148, 112, 219, 0.64) 0%, rgba(148, 112, 219, 0.00) 100%);
     opacity: 0.6;
     height: 100%;
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.ev6{
+.ev6 {
     border-radius: 50px 0px;
     background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
     backdrop-filter: blur(2px);
     height: 100%;
-    width:100%;
+    width: 100%;
     position: relative;
     overflow: hidden;
     background-size: 100%;
@@ -151,7 +151,7 @@
 
 }
 
-.ev7{
+.ev7 {
     border-radius: 70px 70px 0px 0px;
     background: linear-gradient(359deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
     backdrop-filter: blur(2px);
@@ -162,7 +162,7 @@
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.997);
 }
 
-.ti6{
+.ti6 {
     border-radius: 19px;
     background: linear-gradient(180deg, #1F0F3D 0%, rgba(31, 15, 61, 0.00) 100%);
     width: 90%;
@@ -170,31 +170,31 @@
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.ti7{
+.ti7 {
     border-radius: 0px 0px 20px 20px;
     background: linear-gradient(357deg, #322747 0%, rgba(50, 39, 71, 0.00) 100%);
-    width:100%;
+    width: 100%;
     height: 100%;
     animation: 1.2s ease-out 0s 1 popdown;
 }
 
-.mob2{
+.mob2 {
     display: grid;
-    width:100%;
-    height:100%;
-    margin:0.5%;
-    margin-top:0 ;
+    width: 100%;
+    height: 100%;
+    margin: 0.5%;
+    margin-top: 0;
     grid-template-rows: 1fr 1.7fr;
 }
 
-.ev-ti{
+.ev-ti {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    height:95%;
+    height: 95%;
     overflow: hidden;
 }
 
-.ev1{
+.ev1 {
     border-radius: 70px 0px;
     background: linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
     backdrop-filter: blur(2px);
@@ -206,55 +206,55 @@
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.997);
 }
 
-.ti8{
+.ti8 {
     border-radius: 70px 0px;
     opacity: 0.6;
     background: linear-gradient(180deg, #63C 0%, rgba(102, 51, 204, 0.00) 100%);
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.three-ev-two-ti{
+.three-ev-two-ti {
     display: grid;
     grid-template-rows: 1fr 1.1fr;
 }
 
-.ev-ev{
+.ev-ev {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 93%;
 }
 
-.ev2{
+.ev2 {
     border-radius: 50px;
     background: linear-gradient(359deg, #000 100%, rgba(0, 0, 0, 0.00) 100%);
     backdrop-filter: blur(2px);
-    width:95%;
-    height:100%;
+    width: 95%;
+    height: 100%;
     position: relative;
     overflow: hidden;
     background-size: 100%;
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.997);
 }
 
-.ev3{
+.ev3 {
     border-radius: 70px 0px;
     background: linear-gradient(359deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
     backdrop-filter: blur(2px);
-    height:100%;
+    height: 100%;
     overflow: hidden;
     position: relative;
     background-size: 100%;
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.997);
 }
 
-.two-ti-ev{
+.two-ti-ev {
     display: grid;
     grid-template-columns: 1fr 3fr 1.1fr;
     height: 96%;
     overflow: hidden;
 }
 
-.ti9{
+.ti9 {
     border-radius: 50px 0px;
     opacity: 0.6;
     background: linear-gradient(180deg, #9470DB 0%, rgba(148, 112, 219, 0.00) 100%);
@@ -263,11 +263,11 @@
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.ev4{
+.ev4 {
     border-radius: 50px 50px 0px 50px;
     background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
     backdrop-filter: blur(2px);
-    height:100%;
+    height: 100%;
     overflow: hidden;
     width: 100%;
     position: relative;
@@ -275,19 +275,19 @@
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.997);
 }
 
-.ti10{
-    fill: linear-gradient(180deg, #140A29 , rgba(20, 10, 41, 0.00));
-    height:100%;
+.ti10 {
+    fill: linear-gradient(180deg, #140A29, rgba(20, 10, 41, 0.00));
+    height: 100%;
     animation: 1.2s ease-out 0s 1 popup;
 }
 
-.ev1:hover .text, .ev2:hover .text, .ev3:hover .text, .ev4:hover .text, .ev5:hover .text, .ev6:hover .text, .ev7:hover .text{
+.ev1:hover .text, .ev2:hover .text, .ev3:hover .text, .ev4:hover .text, .ev5:hover .text, .ev6:hover .text, .ev7:hover .text {
     bottom: 0;
     font-size: 2.3rem;
     transition: 0.2s;
 }
 
-.ev1:hover, .ev2:hover, .ev3:hover, .ev4:hover, .ev5:hover, .ev6:hover, .ev7:hover{
+.ev1:hover, .ev2:hover, .ev3:hover, .ev4:hover, .ev5:hover, .ev6:hover, .ev7:hover {
     background: linear-gradient(to right, #000000, transparent);
     cursor: pointer;
     transition: 0.2s;
@@ -297,26 +297,27 @@
     background-size: 100%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .body-div {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: none;
         min-height: 40em;
     }
 }
-.text{
+
+.text {
     text-indent: 0.8em;
     position: absolute;
     bottom: auto;
-    top:0.3em;
+    top: 0.3em;
     left: 0;
     opacity: 1;
     /* font-size: 40%; */
 }
 
-.mat{
+.mat {
     text-indent: 2em;
-    font-size:0.35em;
+    font-size: 0.35em;
     font-style: italic;
     font-weight: 200;
     padding-left: 5%;
@@ -327,19 +328,19 @@
     text-shadow: 1px 0px 7px black;
 }
 
-.ev1:hover .mat, .ev2:hover .mat, .ev3:hover .mat, .ev4:hover .mat, .ev5:hover .mat, .ev6:hover .mat, .ev7:hover .mat{
+.ev1:hover .mat, .ev2:hover .mat, .ev3:hover .mat, .ev4:hover .mat, .ev5:hover .mat, .ev6:hover .mat, .ev7:hover .mat {
     transform: translateY(4rem);
     transition: 0.4s;
 }
 
-.image{
-    height:100%;
-    width:100%;
-    object-fit:cover;
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     position: absolute;
 }
 
-.ev1:hover .image, .ev2:hover .image, .ev3:hover .image, .ev4:hover .image, .ev5:hover .image, .ev6:hover .image, .ev7:hover .image{
+.ev1:hover .image, .ev2:hover .image, .ev3:hover .image, .ev4:hover .image, .ev5:hover .image, .ev6:hover .image, .ev7:hover .image {
     filter: blur(2px);
     opacity: 0.7;
     transition: 0.6s;

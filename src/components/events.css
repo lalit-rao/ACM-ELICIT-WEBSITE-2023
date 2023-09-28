@@ -140,7 +140,7 @@ and (max-device-width: 1100px) {
     }
 }
 
-    @media only screen and (min-width: 1550px) {
+@media only screen and (min-width: 1550px) {
     .swiper-container .swiper .swiper-slide {
         background-position: center;
         background-size: cover;

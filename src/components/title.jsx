@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import "./title.css";
 
-const Title = ({ firstWord, secondWord }) => {
+const Title = ({firstWord, secondWord}) => {
     return (
         <div className="title-heading-box">
             <div className="title-heading">

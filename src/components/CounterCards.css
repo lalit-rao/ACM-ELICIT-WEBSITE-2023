@@ -51,6 +51,7 @@
     font-weight: bolder;
     letter-spacing: 0.05rem;
 }
+
 #animated-box .space {
     margin-right: 5px;
 }
@@ -65,6 +66,7 @@
         position: relative;
         top: 70px;
     }
+
     #animated-box .cc-row .cc-column {
         display: block;
         height: 110px;
@@ -81,6 +83,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
     #animated-box .cc-row .cc-column {
         display: block;
         height: 140px;
@@ -100,6 +103,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
     #animated-box .cc-row .cc-column {
         display: block;
         height: 140px;

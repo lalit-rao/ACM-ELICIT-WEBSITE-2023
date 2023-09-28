@@ -1,16 +1,16 @@
-.footer{
-    background-color:#F0EBFA;
+.footer {
+    background-color: #F0EBFA;
     font-family: Readex Pro, sans-serif;
     font-weight: bold;
     /*background-image: url("../assets/images/footer/Untitled.svg");*/
 }
 
-.sb__footer{
-    display:flex;
+.sb__footer {
+    display: flex;
     flex-direction: column;
 }
 
-.sb__footer-links{
+.sb__footer-links {
     background-color: #140A29;
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-.sb__footer-links-div{
+.sb__footer-links-div {
     display: flex;
     color: white;
     width: 100%;
@@ -28,32 +28,32 @@
     align-items: center;
 }
 
-.elements{
+.elements {
     color: white;
     text-decoration: none;
 }
 
-.ig-logo{
-    width:10%;
+.ig-logo {
+    width: 10%;
     align-self: center;
-    margin-left:15%;
+    margin-left: 15%;
     margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-.sb__footer-png{
+.sb__footer-png {
     width: 100%;
-    position:absolute;
+    position: absolute;
 }
 
-.sb__footer-copyright{
+.sb__footer-copyright {
     font-weight: 200;
     font-size: 1vw;
     margin-bottom: 1%;
 }
 
-.sb__footer-content{
+.sb__footer-content {
     color: #140A29;
     display: flex;
     font-size: medium;
@@ -64,7 +64,7 @@
     background-repeat: no-repeat;
 }
 
-.elicit{
+.elicit {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25%;
@@ -72,7 +72,7 @@
     width: 4vw;
 }
 
-.credits{
+.credits {
     font-size: 1.6vw;
     text-align: center;
 }

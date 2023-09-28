@@ -62,6 +62,30 @@ import ElicitMasterPoster from './ElicitPosters/Elicit Master Poster.webp';
 import RoboSoccer from './ElicitPosters/robosoccer.webp';
 import SwapBoard from './ElicitPosters/Swap Board.webp';
 import Eunoia from './ElicitPosters/EUNOIA Poster.webp';
+import img1 from './TeamsPage/img1.webp';
+import img2 from './TeamsPage/img2.webp';
+import img3 from './TeamsPage/img3.webp';
+import img4 from './TeamsPage/img4.webp';
+import img5 from './TeamsPage/img5.webp';
+import img6 from './TeamsPage/img6.webp';
+import img7 from './TeamsPage/img7.webp';
+import img8 from './TeamsPage/img8.webp';
+import img9 from './TeamsPage/img9.webp';
+import img10 from './TeamsPage/img10.webp';
+import img11 from './TeamsPage/img11.webp';
+import img12 from './TeamsPage/img12.webp';
+import img13 from './TeamsPage/img13.webp';
+import img14 from './TeamsPage/img14.webp';
+import img15 from './TeamsPage/img15.webp';
+import img16 from './TeamsPage/img16.webp';
+import img17 from './TeamsPage/img17.webp';
+import img18 from './TeamsPage/img18.webp';
+import img19 from './TeamsPage/img19.webp';
+import img20 from './TeamsPage/img20.webp';
+import img21 from './TeamsPage/img21.webp';
+import img22 from './TeamsPage/img22.webp';
+import img23 from './TeamsPage/img23.webp';
+import img24 from './TeamsPage/img24.webp';
 
 export {
     logo,
@@ -128,4 +152,28 @@ export {
     RoboSoccer,
     SwapBoard,
     Eunoia,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img15,
+    img16,
+    img17,
+    img18,
+    img19,
+    img20,
+    img21,
+    img22,
+    img23,
+    img24,
 };

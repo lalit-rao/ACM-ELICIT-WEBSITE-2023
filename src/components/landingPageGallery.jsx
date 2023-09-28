@@ -16,13 +16,13 @@ const LandingPageGallery = () => {
     return (
         <>
             <div className="box">
-            {images.map((image, index) => (
-                <span key={index}
-                      style={{transform: `rotateY(${index * 45}deg) translateZ(var(--translate-z, 300px))`}}>
+                {images.map((image, index) => (
+                    <span key={index}
+                          style={{transform: `rotateY(${index * 45}deg) translateZ(var(--translate-z, 300px))`}}>
                     <img src={image} alt=""/>
                 </span>
-            ))}
-        </div>
+                ))}
+            </div>
         </>
     );
 

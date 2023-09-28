@@ -1,14 +1,34 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectCoverflow } from 'swiper/modules';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import {Autoplay, EffectCoverflow} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import './events.css';
 import {
-    A1, A2, A3, A4, A5,
-    C1, C2, C3, C4, C5,
-    GA1, GA6, GA7, GA8, GA9,
-    H1, H2, H3, H4, H5,
-    TH1, TH2, TH3, TH4, TH5,
+    A1,
+    A2,
+    A3,
+    A4,
+    A5,
+    C1,
+    C2,
+    C3,
+    C4,
+    C5,
+    GA1,
+    GA6,
+    GA7,
+    GA8,
+    GA9,
+    H1,
+    H2,
+    H3,
+    H4,
+    H5,
+    TH1,
+    TH2,
+    TH3,
+    TH4,
+    TH5,
 } from '../assets/images/index.js';
 
 const categories = [
@@ -64,7 +84,7 @@ const Events = () => {
                 >
                     {category.images.map((image, index) => (
                         <SwiperSlide key={index}>
-                            <img src={image} alt={`Slide ${index + 1}`} />
+                            <img src={image} alt={`Slide ${index + 1}`}/>
                         </SwiperSlide>
                     ))}
                 </Swiper>

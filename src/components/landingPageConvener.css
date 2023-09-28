@@ -179,7 +179,6 @@
 
 @media (max-width: 768px) {
     /* Media query for small screens */
-
     .back0 a {
         width: 50px;
         height: 45px;
@@ -201,7 +200,6 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1100px) {
     /* Media query for medium-sized screens */
-
     .card0 {
         width: 270px;
         height: 390px;

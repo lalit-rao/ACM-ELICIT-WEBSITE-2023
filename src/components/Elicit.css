@@ -51,10 +51,10 @@
     width: 70vw;
     background: rgba(59, 59, 59, 0.25);
     box-shadow: 0 8px 32px 0 rgba(92, 46, 184, 0.37);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     position: sticky;
     bottom: var(--bottom-offset);
     display: grid;
@@ -104,6 +104,7 @@
         grid-template-columns: none;
         grid-template-rows: 34.56vw 1fr;
     }
+
     .ElicitEventCard:not(:first-child) {
         transform: translateY(60vh);
     }
@@ -111,7 +112,6 @@
     /*.footer {
         transform: translateY(60vh);
     }*/
-
     .ElicitEventCard:nth-child(2) {
         margin-top: -60vh;
         position: static;
@@ -121,6 +121,7 @@
         width: auto;
         height: 100%;
     }
+
     .ElicitEventDetail, .ElicitEventPosterContainer, .ElicitRegisterButton {
         width: 80vw;
     }

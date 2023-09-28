@@ -1,8 +1,6 @@
-import { Component } from 'react';
+import {Component} from 'react';
 import './Collage1.css';
-import {
-    A5, C3, C5, GA3, GA7, H1, H4, hero1, hero2, hero4, hero5, MI1, TH1
-} from "../assets/images/index.js";
+import {A5, C3, C5, GA3, GA7, H1, H4, hero1, hero2, hero4, hero5, MI1, TH1} from "../assets/images/index.js";
 
 class Collage1 extends Component {
     constructor(props) {
@@ -13,12 +11,12 @@ class Collage1 extends Component {
     }
 
     handleImageClick = (newImageSrc) => {
-        this.setState({ largeImageSrc: newImageSrc });
+        this.setState({largeImageSrc: newImageSrc});
     };
 
     renderCard = (imageSrc, cardNumber) => (
         <div className={`card card-${cardNumber}`} onClick={() => this.handleImageClick(imageSrc)}>
-            <img src={imageSrc} alt={`Image ${cardNumber}`} />
+            <img src={imageSrc} alt={`Image ${cardNumber}`}/>
         </div>
     );
 
@@ -38,7 +36,7 @@ class Collage1 extends Component {
                 {this.renderCard(hero5, 11)}
                 {this.renderCard(hero2, 12)}
                 <div className="card card-main" onClick={() => this.handleImageClick(MI1)}>
-                    <img src={this.state.largeImageSrc} alt="Main Image" />
+                    <img src={this.state.largeImageSrc} alt="Main Image"/>
                 </div>
             </section>
         );

@@ -1,31 +1,31 @@
 import "./CounterCards.css";
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { useEffect } from "react";
+import {animate, motion, useMotionValue, useTransform} from "framer-motion";
+import {useEffect} from "react";
 
 export default function App() {
     const count1 = useMotionValue(0);
-    const count2  = useMotionValue(0);
-    const count3  = useMotionValue(0);
-    const count4  = useMotionValue(0);
+    const count2 = useMotionValue(0);
+    const count3 = useMotionValue(0);
+    const count4 = useMotionValue(0);
     const rounded1 = useTransform(count1, Math.round);
     const rounded2 = useTransform(count2, Math.round);
     const rounded3 = useTransform(count3, Math.round);
     const rounded4 = useTransform(count4, Math.round);
 
     useEffect(() => {
-        const animation = animate(count1, 4000, { duration: 3 });
+        const animation = animate(count1, 4000, {duration: 3});
         return animation.stop;
     }, [count1]);
     useEffect(() => {
-        const animation = animate(count2, 20, { duration: 3 });
+        const animation = animate(count2, 20, {duration: 3});
         return animation.stop;
     }, [count2]);
     useEffect(() => {
-        const animation = animate(count3, 20, { duration: 3 });
+        const animation = animate(count3, 20, {duration: 3});
         return animation.stop;
     }, [count3]);
     useEffect(() => {
-        const animation = animate(count4, 200, { duration: 3 });
+        const animation = animate(count4, 200, {duration: 3});
         return animation.stop;
     }, [count4]);
 

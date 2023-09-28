@@ -9,35 +9,36 @@ import CarouselGallery from "./landingPageGallery.jsx";
 import Footer from "./footer.jsx";
 import Title from "./title.jsx";
 import "./landingPage.css";
+
 const LandingPage = () => {
     return (
         <div className="relative">
             <section className="Hero">
-                <LPHero />
+                <LPHero/>
             </section>
             <section className="Navbar">
-                <Navbar />
+                <Navbar/>
             </section>
             <section className="CounterCards">
-                <CounterCards />
+                <CounterCards/>
             </section>
             <section className="Convener">
-                <Convener />
+                <Convener/>
             </section>
             <section className="UpcomingEvents">
-                <Title firstWord={"Upcoming"} secondWord={"Events"} />
-                <LandingPageUE />
+                <Title firstWord={"Upcoming"} secondWord={"Events"}/>
+                <LandingPageUE/>
             </section>
             <section className="PastEvents">
-                <Title firstWord={"Past"} secondWord={"Events"} />
-                <LandingPagePE />
+                <Title firstWord={"Past"} secondWord={"Events"}/>
+                <LandingPagePE/>
             </section>
-            <Title firstWord={""} secondWord={"Gallery"} />
+            <Title firstWord={""} secondWord={"Gallery"}/>
             <section className="CarouselLandingGallery">
-                <CarouselGallery />
+                <CarouselGallery/>
             </section>
             <section className="Footer">
-                <Footer />
+                <Footer/>
             </section>
         </div>
     );

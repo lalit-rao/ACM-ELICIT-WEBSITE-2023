@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import RTEContainer from "./RTE.jsx";
 import ElicitContainer from "./Elicit.jsx";
 import "./upcomingEventsPage.css";
@@ -47,10 +47,10 @@ const UpcomingEventsPage = () => {
                 </div>
                 <div className="UpcomingEventsContainer">
                     <div className="RTEContainer">
-                        <RTEContainer />
+                        <RTEContainer/>
                     </div>
                     <div className="ElicitContainer">
-                        <ElicitContainer />
+                        <ElicitContainer/>
                     </div>
                 </div>
             </div>

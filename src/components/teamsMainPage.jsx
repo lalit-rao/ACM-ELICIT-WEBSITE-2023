@@ -12,7 +12,7 @@ const TeamsMainPage = () => {
                 <Navbar/>
             </section>
             <section className="Footer">
-                <Footer />
+                <Footer/>
             </section>
         </>
     );

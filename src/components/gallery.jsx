@@ -17,10 +17,10 @@ const gallery = () => (
             <Events/>
         </section>
         <section className="Collage">
-            <Collage1 />
+            <Collage1/>
         </section>
         <section className="Footer">
-            <Footer />
+            <Footer/>
         </section>
     </main>
 );

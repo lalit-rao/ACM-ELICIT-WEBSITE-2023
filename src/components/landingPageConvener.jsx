@@ -1,12 +1,12 @@
 import './landingPageConvener.css'
-import { Instagram, Linkedin } from '../assets/images/index.js'
+import {Instagram, Linkedin} from '../assets/images/index.js'
 import Title from "./title.jsx";
 
 const LandingPageConvener = () => {
     return (
         <div className="containerof0">
             <div className="title-convener-1">
-                <Title firstWord={""} secondWord={"Convener"} />
+                <Title firstWord={""} secondWord={"Convener"}/>
             </div>
             <div className="containerof-1">
                 <div className="card0">
@@ -19,13 +19,14 @@ const LandingPageConvener = () => {
                             <h1>
                                 Soham <span>Dixit</span>
                             </h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa aliquam aspernatur nulla quod, enim rerum.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa aliquam aspernatur nulla
+                                quod, enim rerum.</p>
                             <div className="row0">
                                 <a target="_blank" href="https://instagram.com/sohamdixit__?igshid=MzRlODBiNWFlZA==">
-                                    <img src={Instagram} alt="instagram" />
+                                    <img src={Instagram} alt="instagram"/>
                                 </a>
                                 <a target="_blank" href="https://www.linkedin.com/in/soham-dixit-0879461b0">
-                                    <img src={Linkedin} alt="linkedin" />
+                                    <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>
                         </div>
@@ -33,7 +34,7 @@ const LandingPageConvener = () => {
                 </div>
             </div>
             <div className="title-convener-2">
-                <Title firstWord={""} secondWord={"Co-Conveners"} />
+                <Title firstWord={""} secondWord={"Co-Conveners"}/>
 
             </div>
             <div className="containerof-20">
@@ -47,13 +48,14 @@ const LandingPageConvener = () => {
                             <h1>
                                 Nikunj <span>Agarwal</span>
                             </h1>
-                            <p>There can be no false steps now. The higher up the mountain the more treacherous the path.</p>
+                            <p>There can be no false steps now. The higher up the mountain the more treacherous the
+                                path.</p>
                             <div className="row0">
                                 <a target="_blank" href="https://instagram.com/nikunjagrwl?igshid=MzRlODBiNWFlZA==">
-                                    <img src={Instagram} alt="instagram" />
+                                    <img src={Instagram} alt="instagram"/>
                                 </a>
                                 <a target="_blank" href="https://www.linkedin.com/in/nikunjagrwl">
-                                    <img src={Linkedin} alt="linkedin" />
+                                    <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>
                         </div>
@@ -71,11 +73,12 @@ const LandingPageConvener = () => {
                             </h1>
                             <p>If you let your learning lead to knowledge, you become a fool.</p>
                             <div className="row0">
-                                <a target="_blank" href="https://instagram.com/visheshaggarwal_?igshid=MzRlODBiNWFlZA==">
-                                    <img src={Instagram} alt="instagram" />
+                                <a target="_blank"
+                                   href="https://instagram.com/visheshaggarwal_?igshid=MzRlODBiNWFlZA==">
+                                    <img src={Instagram} alt="instagram"/>
                                 </a>
                                 <a target="_blank" href="https://www.linkedin.com/in/01visheshaggarwal">
-                                    <img src={Linkedin} alt="linkedin" />
+                                    <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>
                         </div>
@@ -94,10 +97,10 @@ const LandingPageConvener = () => {
                             <p>"That which is dreamed can never be lost, can never be undreamed." ~ Neil Gaiman.</p>
                             <div className="row0">
                                 <a target="_blank" href="https://instagram.com/icegreen04?igshid=MzRlODBiNWFlZA==">
-                                    <img src={Instagram} alt="instagram" />
+                                    <img src={Instagram} alt="instagram"/>
                                 </a>
                                 <a target="_blank" href="https://www.linkedin.com/in/harshitshah-blue">
-                                    <img src={Linkedin} alt="linkedin" />
+                                    <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>
                         </div>

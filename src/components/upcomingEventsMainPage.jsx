@@ -15,7 +15,7 @@ const UpcomingEventsMainPage = () => {
                 <Navbar/>
             </section>
             <section className="Footer footer-UEMP">
-                <Footer />
+                <Footer/>
             </section>
         </div>
     );
