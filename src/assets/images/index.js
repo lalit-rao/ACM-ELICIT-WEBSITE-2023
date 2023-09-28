@@ -49,7 +49,7 @@ import Elevate from './RTE23Posters/Elevate.webp';
 import Futsal from './RTE23Posters/Futsal.webp';
 import MurderMystery from './RTE23Posters/MurderMystery.webp';
 import CodeRelay from './ElicitPosters/CODE RELAY.webp';
-import Defi from './ElicitPosters/DEFI.webp';
+import Defi from './ElicitPosters/DeFi.webp';
 import GamersAsylum from './ElicitPosters/gamers asylum.webp';
 import Hacks from './ElicitPosters/Hacks 8.0.webp';
 import ElicitExpo from './ElicitPosters/Elicit Expo.webp';
@@ -60,8 +60,8 @@ import ReputedSpeakers from './ElicitPosters/REPUTED SPEAKER TALK.webp';
 import UIUX from './ElicitPosters/UX Evolve Poster.webp';
 import ElicitMasterPoster from './ElicitPosters/Elicit Master Poster.webp';
 import RoboSoccer from './ElicitPosters/robosoccer.webp';
-import SwapBoard from './ElicitPosters/Swap Board.webp'
-import Eunoia from './ElicitPosters/EUNOIA Poster.webp'
+import SwapBoard from './ElicitPosters/Swap Board.webp';
+import Eunoia from './ElicitPosters/EUNOIA Poster.webp';
 
 export {
     logo,
