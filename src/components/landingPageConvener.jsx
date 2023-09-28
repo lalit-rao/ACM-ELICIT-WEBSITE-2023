@@ -91,7 +91,7 @@ const LandingPageConvener = () => {
                             <h1>
                                 Harshit <span>Shah</span>
                             </h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod tempore. Odio totam nulla ratione.</p>
+                            <p>"That which is dreamed can never be lost, can never be undreamed." ~ Neil Gaiman.</p>
                             <div className="row0">
                                 <a target="_blank" href="https://instagram.com/icegreen04?igshid=MzRlODBiNWFlZA==">
                                     <img src={Instagram} alt="instagram" />
