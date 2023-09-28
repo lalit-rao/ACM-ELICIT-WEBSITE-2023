@@ -42,9 +42,26 @@ import Instagram from './Convener/instagram.svg'
 import Person1 from './Convener/soham.webp';
 import Person2 from './Convener/nikunj.webp';
 import Person3 from './Convener/harshit.webp';
-import Teaser from './teaser.mp4'
-import HeroVid from './Hero-Vid.mp4'
-
+import Teaser from './teaser.mp4';
+import HeroVid from './Hero-Vid.mp4';
+import Decode from './RTE23Posters/Decode.webp';
+import Elevate from './RTE23Posters/Elevate.webp';
+import Futsal from './RTE23Posters/Futsal.webp';
+import MurderMystery from './RTE23Posters/MurderMystery.webp';
+import CodeRelay from './ElicitPosters/CODE RELAY.webp';
+import Defi from './ElicitPosters/DEFI.webp';
+import GamersAsylum from './ElicitPosters/gamers asylum.webp';
+import Hacks from './ElicitPosters/HACKS 8.0.webp';
+import ElicitExpo from './ElicitPosters/Elicit Expo.webp';
+import Hacktober from './ElicitPosters/HACKTOBER.webp';
+import Polysis from './ElicitPosters/POLYSIS.webp';
+import ImPrompt from './ElicitPosters/Imprompto final.webp';
+import ReputedSpeakers from './ElicitPosters/REPUTED SPEAKER TALK.webp';
+import UIUX from './ElicitPosters/UX Evolve Poster.webp';
+import ElicitMasterPoster from './ElicitPosters/Elicit Master Poster.webp';
+import RoboSoccer from './ElicitPosters/robosoccer.webp';
+import SwapBoard from './ElicitPosters/Swap Board.webp'
+import Eunoia from './ElicitPosters/EUNOIA Poster.webp'
 
 export {
     logo,
@@ -93,4 +110,22 @@ export {
     Person2,
     Person3,
     MI1,
+    Decode,
+    Elevate,
+    Futsal,
+    MurderMystery,
+    CodeRelay,
+    Defi,
+    GamersAsylum,
+    Hacks,
+    ElicitExpo,
+    Hacktober,
+    Polysis,
+    ImPrompt,
+    ReputedSpeakers,
+    UIUX,
+    ElicitMasterPoster,
+    RoboSoccer,
+    SwapBoard,
+    Eunoia,
 };
