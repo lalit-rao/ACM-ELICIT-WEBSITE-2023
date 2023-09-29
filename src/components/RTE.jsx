@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { RTEEventsList } from "./RTEData.js";
 import poster1 from "../assets/images/RTE23Posters/MurderMystery.webp";
 import poster2 from "../assets/images/RTE23Posters/Elevate.webp";
