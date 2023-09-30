@@ -29,7 +29,7 @@ import {  img1,
 const TeamsSection = () => {
     return (
         <>
-            {/*<Title firstWord={"Our"} secondWord={"Team"} />*/}
+            <Title firstWord={"Our"} secondWord={"Team"} />
             <div className="sub-heading-box">
                 <div className="sub-heading">Events</div>
             </div>
@@ -145,7 +145,7 @@ const TeamsSection = () => {
 
 
             <div className="sub-heading-box">
-                <div className="sub-heading">Finance and Resources</div>
+                <div className="sub-heading">Finance</div>
             </div>
 
             <div className="container">

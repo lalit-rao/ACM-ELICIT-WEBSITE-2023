@@ -19,8 +19,7 @@ const LandingPageConvener = () => {
                             <h1>
                                 Soham <span>Dixit</span>
                             </h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa aliquam aspernatur nulla
-                                quod, enim rerum.</p>
+                            <p>Dominant, Humbly</p>
                             <div className="row0">
                                 <a target="_blank" href="https://instagram.com/sohamdixit__?igshid=MzRlODBiNWFlZA==">
                                     <img src={Instagram} alt="instagram"/>

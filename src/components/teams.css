@@ -61,7 +61,7 @@
     overflow: hidden;
     transition: 0.3s;
     object-fit: cover;
-    margin: 0 10%;
+    margin: 10% 10%;
     margin-top: 10%;
     align-items: center;
 }
