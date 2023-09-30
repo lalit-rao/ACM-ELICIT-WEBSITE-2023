@@ -40,7 +40,6 @@ function Navbar() {
                 <a className="hover-underline-animation" href="/Gallery">Gallery</a>
                 <a className="hover-underline-animation" href="/Upcoming-Events">Events</a>
                 <a className="hover-underline-animation" href="/Team">Team</a>
-                <a className="hover-underline-animation" href="/Sponsors">Sponsors</a>
                 <button
                     className="nav-btn nav-close-btn"
                     onClick={showNavbar}>
