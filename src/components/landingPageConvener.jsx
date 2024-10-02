@@ -19,12 +19,12 @@ const LandingPageConvener = () => {
                             <h1>
                                 Kuljeet <span>Singh Shekhawat</span>
                             </h1>
-                            <p>Dominant, Humbly</p>
+                            <p>A legacy is built not on past achievements, but on the vision for the future.</p>
                             <div className="row0">
-                                <a target="_blank" href="https://instagram.com/sohamdixit__?igshid=MzRlODBiNWFlZA==">
+                                <a href="https://www.instagram.com/kuljeet_singh_shekhawat/">
                                     <img src={Instagram} alt="instagram"/>
                                 </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/soham-dixit-0879461b0">
+                                <a href="https://www.linkedin.com/in/kuljeet-singh-shekhawat-a3694824a/">
                                     <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>
@@ -47,13 +47,12 @@ const LandingPageConvener = () => {
                             <h1>
                                 Neet <span>Jain</span>
                             </h1>
-                            <p>There can be no false steps now. The higher up the mountain the more treacherous the
-                                path.</p>
+                            <p>Discipline is the bridge between goals and accomplishments.</p>
                             <div className="row0">
-                                <a target="_blank" href="https://instagram.com/nikunjagrwl?igshid=MzRlODBiNWFlZA==">
+                                <a href="https://www.instagram.com/neetjainnn/">
                                     <img src={Instagram} alt="instagram"/>
                                 </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/nikunjagrwl">
+                                <a href="https://www.linkedin.com/in/neet-jain-596a01257/">
                                     <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>
@@ -70,13 +69,13 @@ const LandingPageConvener = () => {
                             <h1>
                                 Ayan <span>Parashar</span>
                             </h1>
-                            <p>If you let your learning lead to knowledge, you become a fool.</p>
+                            <p>To handle yourself, use your head; to handle others, use your heart.</p>
                             <div className="row0">
-                                <a target="_blank"
-                                   href="https://instagram.com/visheshaggarwal_?igshid=MzRlODBiNWFlZA==">
+                                <a
+                                   href="https://www.instagram.com/ayan_parashar/">
                                     <img src={Instagram} alt="instagram"/>
                                 </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/01visheshaggarwal">
+                                <a href="https://www.linkedin.com/in/ayan-parashar-350716279/">
                                     <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>
@@ -93,12 +92,12 @@ const LandingPageConvener = () => {
                             <h1>
                                 Priyanshu <span></span>
                             </h1>
-                            <p>"That which is dreamed can never be lost, can never be undreamed." ~ Neil Gaiman.</p>
+                            <p>You may have to fight a battle more than once to win it.</p>
                             <div className="row0">
-                                <a target="_blank" href="https://instagram.com/icegreen04?igshid=MzRlODBiNWFlZA==">
+                                <a href="https://www.instagram.com/priii_yanshu_/">
                                     <img src={Instagram} alt="instagram"/>
                                 </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/harshitshah-blue">
+                                <a href="https://www.linkedin.com/in/priyanshu-ros/">
                                     <img src={Linkedin} alt="linkedin"/>
                                 </a>
                             </div>

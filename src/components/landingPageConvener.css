@@ -1,51 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Poppins&display=swap');
 
+/* Container Styling */
 .containerof0 {
     width: 100%;
     min-height: auto;
     background: linear-gradient(135deg, #000000, #000000);
     padding: 10px;
+    overflow: visible; /* Ensure child elements are not clipped */
+    pointer-events: auto; /* Allow interactions */
 }
 
+/* Card Container */
 .card0 {
     width: 15rem;
     height: 20rem;
     margin: 100px auto 0;
-    perspective: 1000px;
+    perspective: 1000px; /* Enable 3D space */
     background-color: transparent;
     border-radius: 15px;
-    transform: rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
-    -webkit-transition: -webkit-transform 1s;
-    -o-transform-style: preserve-3d;
-    /*-o-transition: -o-transform 1s;*/
-    -moz-transform-style: preserve-3d;
-    /*-moz-transition: -moz-transform 1s;*/
+    transform-style: preserve-3d; /* Enable 3D children */
+    transition: transform 1s;
+    position: relative;
 }
 
+/* Inner Card for Rotation */
 .card-inner0 {
     width: 100%;
     height: 100%;
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
-    backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
+    cursor: pointer; /* Indicate interactivity */
 }
 
+/* Front and Back Faces */
 .front0,
 .back0 {
     width: 100%;
     height: 100%;
     border-radius: 15px;
     position: absolute;
-    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden; /* Hide the backside during rotation */
     box-shadow: 0 0 20px 5px #a257db;
-    -webkit-box-shadow: 0 0 20px 5px #a257db; /* Add -webkit prefix for Safari */
+    -webkit-box-shadow: 0 0 20px 5px #a257db; /* For Safari */
 }
 
+/* Front Face */
 .front0 {
     background-size: cover;
     padding: 60px 40px;
@@ -54,9 +56,11 @@
     justify-content: flex-end;
     color: #fff;
     transform: rotateY(0deg);
-    background-repeat: no-repeat; /* Fix potential background rendering issue */
+    background-repeat: no-repeat;
+    z-index: 2; /* Higher z-index to stay above the back when not flipped */
 }
 
+/* Background Images for Persons */
 .Person-10 {
     background-image: url("../assets/images/Convener/Kuljeet.webp");
 }
@@ -73,6 +77,7 @@
     background-image: url("../assets/images/Convener/Priyanshu.webp");
 }
 
+/* Front Face Text Styling */
 .front0 h2 {
     font-weight: 500;
     font-size: 1.5rem;
@@ -83,6 +88,7 @@
     font-size: 0.9rem;
 }
 
+/* Back Face */
 .back0 {
     background: rgba(224, 161, 242, 0.8);
     backdrop-filter: blur(5px);
@@ -90,16 +96,17 @@
     color: #333;
     padding: 20px 30px;
     transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg); /* Add -webkit prefix for Safari */
+    z-index: 1; /* Lower z-index to stay behind the front when not flipped */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* Back Face Text Styling */
 .back0 h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    line-height: 55px;
+    line-height: 1.2;
     margin-bottom: 10px;
 }
 
@@ -116,30 +123,21 @@
     font-weight: 600;
 }
 
+/* Row for Social Icons */
 .row0 {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    bottom: 12%;
-    left: 25%;
     position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.back0 button {
-    background: #c22e8d;
-    color: #fff;
-    border: 0;
-    outline: 0;
-    padding: 8px 25px;
-    border-radius: 30px;
-    font-size: 14px;
-    margin-right: 15px;
-    box-shadow: 0 8px 10px rgba(120, 0, 173, 0.3);
-}
-
+/* Social Links Styling */
 .back0 a {
     width: 50px;
-    height: 45px;
+    height: 50px; /* Increased height for better click area */
     border-radius: 50%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -147,21 +145,30 @@
     justify-content: center;
     margin: 0 5px;
     background-color: white;
+    pointer-events: auto; /* Ensure links are clickable */
+    z-index: 3; /* Ensure links are above other elements */
+    transition: transform 0.3s ease-in-out;
 }
 
 .back0 a:hover {
     transform: scale(1.12);
-    transition: 0.5s ease-in-out;
 }
 
 .back0 a img {
     width: 60%;
+    height: 60%;
 }
 
+/* Card Flip on Hover */
 .card0:hover .card-inner0 {
     transform: rotateY(180deg);
 }
 
+.card0:hover .back0 {
+    z-index: 4; /* Bring back face to front when flipped */
+}
+
+/* Responsive Styling */
 .containerof-20 {
     display: flex;
     flex-wrap: wrap;
@@ -182,7 +189,7 @@
     /* Media query for small screens */
     .back0 a {
         width: 50px;
-        height: 45px;
+        height: 50px;
         border-radius: 50%;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         display: flex;
