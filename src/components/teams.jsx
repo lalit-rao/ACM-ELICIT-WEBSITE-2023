@@ -1,3 +1,4 @@
+/*
 import Title from "./title.jsx";
 import "./teams.css";
 import ElicitLogo from "../assets/images/Elicit.png";
@@ -304,3 +305,115 @@ const TeamsSection = () => {
 };
 
 export default TeamsSection;
+*/
+
+
+
+
+
+
+
+
+
+
+
+import './landingPageConvener.css';
+import { useRef, useEffect } from 'react';
+import { Instagram, Linkedin } from '../assets/images/index.js';
+import Title from "./title.jsx";
+
+const LandingPageConvener = () => {
+    const cardRefs = useRef([]);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-flipped');
+                } else {
+                    entry.target.classList.remove('is-flipped');
+                }
+            });
+        });
+
+        cardRefs.current.forEach((card) => {
+            if (card) observer.observe(card);
+        });
+
+        return () => {
+            cardRefs.current.forEach((card) => {
+                if (card) observer.unobserve(card);
+            });
+        };
+    }, []);
+
+    return (
+        <div className="containerof0">
+            {/* Convener Section */}
+            <div className="title-convener-1">
+                <Title firstWord={""} secondWord={"Convener"} />
+            </div>
+            <div className="containerof-1">
+                <div className="card0" ref={el => cardRefs.current[0] = el}>
+                    <div className="card-inner0">
+                        <div className="front0 Person-10">
+                            <h2>Soham Dixit</h2>
+                            <p>Convener</p>
+                        </div>
+                        <div className="back0">
+                            <h1>
+                                Soham <span>Dixit</span>
+                            </h1>
+                            <p>Dominant, Humbly</p>
+                            <div className="row0">
+                                <a target="_blank" href="https://instagram.com/sohamdixit__?igshid=MzRlODBiNWFlZA==">
+                                    <img src={Instagram} alt="instagram" />
+                                </a>
+                                <a target="_blank" href="https://www.linkedin.com/in/soham-dixit-0879461b0">
+                                    <img src={Linkedin} alt="linkedin" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Co-Conveners Section */}
+            <div className="title-convener-2">
+                <Title firstWord={""} secondWord={"Co-Conveners"} />
+            </div>
+            <div className="containerof-20">
+                {["Nikunj Agarwal", "Vishesh Aggarwal", "Harshit Shah"].map((name, index) => (
+                    <div className="card0" ref={el => cardRefs.current[index + 1] = el} key={name}>
+                        <div className="card-inner0">
+                            <div className={`front0 Person-${(index + 2) * 10}`}>
+                                <h2>{name.split(" ")[0]}</h2>
+                                <p>Co-Convener</p>
+                            </div>
+                            <div className="back0">
+                                <h1>
+                                    {name.split(" ")[0]} <span>{name.split(" ")[1]}</span>
+                                </h1>
+                                <p>{[
+                                    "There can be no false steps now. The higher up the mountain the more treacherous the path.",
+                                    "If you let your learning lead to knowledge, you become a fool.",
+                                    "\"That which is dreamed can never be lost, can never be undreamed.\" ~ Neil Gaiman."
+                                ][index]}</p>
+                                <div className="row0">
+                                    <a target="_blank" href={["https://instagram.com/nikunjagrwl?igshid=MzRlODBiNWFlZA==", "https://instagram.com/visheshaggarwal_?igshid=MzRlODBiNWFlZA==", "https://instagram.com/icegreen04?igshid=MzRlODBiNWFlZA=="][index]}>
+                                        <img src={Instagram} alt="instagram" />
+                                    </a>
+                                    <a target="_blank" href={["https://www.linkedin.com/in/nikunjagrwl", "https://www.linkedin.com/in/01visheshaggarwal", "https://www.linkedin.com/in/harshitshah-blue"][index]}>
+                                        <img src={Linkedin} alt="linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export default LandingPageConvener;

@@ -45,14 +45,16 @@ import Person3 from './Convener/harshit.webp';
 import Teaser from './teaser.mp4';
 import HeroVid from './Hero-Vid.mp4';
 import Decode from './RTE23Posters/Decode.webp';
-import Elevate from './RTE23Posters/Elevate.webp';
 import Futsal from './RTE23Posters/Futsal.webp';
-import MurderMystery from './RTE23Posters/MurderMystery.webp';
+import DroneRacing from './RTE23Posters/DroneRacing.webp';
+import RoboRacing from './RTE23Posters/RoboRacing.webp';
+import StockMarket from './RTE23Posters/StockMarket.webp';
+import GamersAsylum from './RTE23Posters/GamerAsylum.webp';
+import KeyboardWarriors from './RTE23Posters/KeyboardWarriors.webp';
 import CodeRelay from './ElicitPosters/CODE RELAY.webp';
 import Defi from './ElicitPosters/DeFi.webp';
-import GamersAsylum from './ElicitPosters/gamers asylum.webp';
 import Hacks from './ElicitPosters/Hacks 8.0.webp';
-import ElicitExpo from './ElicitPosters/Elicit Expo.webp';
+import ElicitExpo from './RTE23Posters/ElicitExpo.webp';
 import Hacktober from './ElicitPosters/HACKTOBER.webp';
 import Polysis from './ElicitPosters/POLYSIS.webp';
 import ImPrompt from './ElicitPosters/Imprompto final.webp';
@@ -86,8 +88,14 @@ import img21 from './TeamsPage/img21.webp';
 import img22 from './TeamsPage/img22.webp';
 import img23 from './TeamsPage/img23.webp';
 import img24 from './TeamsPage/img24.webp';
+import heroLogo from './herologo.svg';
+import footerLogocombined from './logoElicit.png'
+import footerLogoMain from './ElogoElicit.png'
 
 export {
+    footerLogocombined,
+    footerLogoMain,
+    heroLogo,
     logo,
     hero1,
     hero2,
@@ -135,9 +143,7 @@ export {
     Person3,
     MI1,
     Decode,
-    Elevate,
     Futsal,
-    MurderMystery,
     CodeRelay,
     Defi,
     GamersAsylum,
@@ -176,4 +182,8 @@ export {
     img22,
     img23,
     img24,
+    DroneRacing,
+    RoboRacing,
+    StockMarket,
+    KeyboardWarriors,
 };

@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { RTEEventsList } from "./RTEData.js";
-import poster1 from "../assets/images/RTE23Posters/MurderMystery.webp";
-import poster2 from "../assets/images/RTE23Posters/Elevate.webp";
 import poster3 from "../assets/images/RTE23Posters/Elicit.webp";
 import poster4 from "../assets/images/RTE23Posters/Futsal.webp";
 import poster5 from "../assets/images/RTE23Posters/Decode.webp";
 import "./StackedCards.css";
 import "./RTE.css";
+import {Decode, ElicitExpo, Futsal, KeyboardWarriors, RoboRacing, RoboSoccer} from "../assets/images/index.js";
 
 var LoadedCarouselScript = false;
 
@@ -151,19 +150,19 @@ const RTEContainer = () => {
                     <div className="RTEPostersContainer carousel">
                         <ul className="carousel__list">
                             <li className="carousel__item TEEvent1" id="RTEPoster1" data-pos="-2">
-                                <img src={poster1} className="RTEPosters" />
+                                <img src={Decode} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent2" id="RTEPoster2" data-pos="-1">
-                                <img src={poster2} className="RTEPosters" />
+                                <img src={Futsal} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent5" id="RTEPoster5" data-pos="0">
-                                <img src={poster3} className="RTEPosters" />
+                                <img src={KeyboardWarriors} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent4" id="RTEPoster4" data-pos="1">
-                                <img src={poster4} className="RTEPosters" />
+                                <img src={ElicitExpo} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent3" id="RTEPoster3" data-pos="2">
-                                <img src={poster5} className="RTEPosters" />
+                                <img src={RoboRacing} className="RTEPosters" />
                             </li>
                         </ul>
                     </div>

@@ -105,3 +105,14 @@
         flex-direction: column;
     }
 }
+
+
+
+
+/* Existing CSS remains unchanged */
+
+.card0.is-flipped .card-inner0 {
+    transform: rotateY(180deg);
+}
+
+/* Adjust other styles as needed */

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "League Spartan";
+    src: url("../fonts/LeagueSpartan-Regular.ttf") format("truetype");
+}
+
+.text-stroke {
+    color: rgba(200, 11, 53, 0.7); /* Text color with 50% opacity */
+    -webkit-text-stroke: 1px rgb(200, 11, 53); /* Solid outline color (black) */
+}
+

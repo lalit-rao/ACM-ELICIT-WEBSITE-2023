@@ -2,7 +2,7 @@ import {ScrollingOffSetPosters, ScrollingPosters} from "./ScrollingPosters.jsx";
 import poster1 from "../assets/images/RTE23Posters/Elicit.webp";
 import poster2 from "../assets/images/RTE23Posters/ComingSoon.webp";
 import {
-  CodeRelay,
+    CodeRelay,
     Defi,
     GamersAsylum,
     Hacks,
@@ -15,7 +15,7 @@ import {
     ElicitMasterPoster,
     RoboSoccer,
     SwapBoard,
-    Eunoia,
+    Eunoia, DroneRacing, RoboRacing, Futsal,
 } from "../assets/images/index.js";
 
 import './landingPageUpcomingEvents.css'
@@ -41,7 +41,7 @@ const landingPageUpcomingEvents = () => {
             <div className="element4 GridGap"></div>
             <div className="element5 GridGap PosterBorder">
                 <a href="/Upcoming-Events">
-                    <img src={ImPrompt} className="Posters"/>
+                    <img src={GamersAsylum} className="Posters"/>
                 </a>
             </div>
             <div className="element6 GridGap HorizontalLineElement">
@@ -57,7 +57,7 @@ const landingPageUpcomingEvents = () => {
             </div>
             <div className="element7 GridGap PosterBorder">
                 <a href="/Upcoming-Events">
-                    <img src={Polysis} className="Posters"/>
+                    <img src={DroneRacing} className="Posters"/>
                 </a>
             </div>
             <div className="element8 GridGap PosterBorder">
@@ -71,7 +71,7 @@ const landingPageUpcomingEvents = () => {
             <div className="element10 GridGap"></div>
             <div className="element11 GridGap PosterBorder">
                 <a href="/Upcoming-Events">
-                    <img src={RoboSoccer} className="Posters"/>
+                    <img src={RoboRacing} className="Posters"/>
                 </a>
             </div>
             <div className="element12"></div>
@@ -80,7 +80,7 @@ const landingPageUpcomingEvents = () => {
             <div className="element15 GridGap"></div>
             <div className="element16 GridGap PosterBorder">
                 <a href="/Upcoming-Events">
-                    <img src={Eunoia} className="Posters"/>
+                    <img src={Futsal} className="Posters"/>
                 </a>
             </div>
             <div className="element17 GridGap"></div>

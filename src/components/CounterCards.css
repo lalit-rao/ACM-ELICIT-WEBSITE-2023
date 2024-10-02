@@ -5,18 +5,28 @@
     align-items: center;
     margin-bottom: 10px;
     user-select: none;
+    background-color: linear-gradient(0deg, #130125, #3d007a);
 }
 
 #animated-box .counterCards-text h1 {
     margin-right: 5px;
     font-size: 24px;
     text-align: center;
+    font-weight: bolder;
 }
 
 #animated-box .counterCards-text p {
     margin-bottom: 0;
     font-size: 18px;
     font-weight: bolder;
+}
+
+.cc-card .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
 #animated-box .cc-row {
@@ -31,7 +41,7 @@
 #animated-box .cc-row .cc-column {
     position: relative;
     top: -35px;
-    height: 120px;
+    height: 140px;
     width: 250px;
     background-color: #444;
     color: rgba(255, 255, 255, 0.85);
@@ -40,10 +50,17 @@
     background-color: rgba(81, 34, 159, 0.9);
 }
 
-#animated-box .cc-card {
-    justify-content: center;
-    align-items: center;
+
+.cc-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This ensures both vertical and horizontal centering */
     text-align: center;
+}
+
+.cc-card .icon {
+    font-size: 2rem;
+    color: #ffffff;
 }
 
 #animated-box .cc-card-name {

@@ -1,20 +1,19 @@
-import LPHero from "./landingPageHero.jsx";
 import Navbar from "./Navbar.jsx";
 import CounterCards from "./CounterCards.jsx";
-// import MainHero from './landingPageMainHero.jsx';
 import Convener from "./landingPageConvener.jsx";
 import LandingPageUE from "./landingPageUpcomingEvents.jsx";
 import LandingPagePE from "./landingPagePastEvents.jsx";
 import CarouselGallery from "./landingPageGallery.jsx";
-import Footer from "./footer.jsx";
+import Footer from "./Footer.jsx";
 import Title from "./title.jsx";
 import "./landingPage.css";
+import Hero from "./Hero.jsx";
 
 const LandingPage = () => {
     return (
         <div className="relative">
             <section className="Hero">
-                <LPHero/>
+                <Hero/>
             </section>
             <section className="Navbar">
                 <Navbar/>

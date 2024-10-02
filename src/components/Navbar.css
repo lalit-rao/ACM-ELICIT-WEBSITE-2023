@@ -23,6 +23,17 @@ header {
     color: var(--textColor);
 }
 
+header {
+    z-index: 100; /* Make sure navbar is above */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    color: var(--textColor);
+}
+
+
 nav a {
     margin: 0 1rem;
     color: var(--textColor);
@@ -78,6 +89,19 @@ nav {
     z-index: 5;
     position: relative;
 }
+
+.logoContainer {
+    z-index: 5;
+    position: relative;
+    width: 60px; /* Adjust this value as needed */
+    height: auto; /* This keeps the aspect ratio */
+}
+
+.logoContainer img {
+    width: 100%; /* Makes the image fit the container */
+    height: auto; /* Preserves the aspect ratio */
+}
+
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
