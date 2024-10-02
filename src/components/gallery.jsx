@@ -3,7 +3,7 @@ import GalleryHero from "./GalleryHero.jsx";
 import Events from './events.jsx'
 import Collage1 from "./Collage1.jsx";
 import "./gallery.css";
-import Footer from "./footer.jsx";
+import Footer from "./Footer.jsx";
 
 const gallery = () => (
     <main className="relative">
