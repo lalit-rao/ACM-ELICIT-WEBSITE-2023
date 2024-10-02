@@ -1,6 +1,6 @@
 import UEP from './upcomingEventsPage.jsx'
 import Navbar from "./Navbar.jsx";
-import Footer from "./footer.jsx";
+import Footer from "./Footer.jsx";
 
 
 import './upcomingEventsMainPage.css'
