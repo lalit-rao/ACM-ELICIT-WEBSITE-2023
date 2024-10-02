@@ -148,19 +148,19 @@ const RTEContainer = () => {
                     <div className="RTEPostersContainer carousel">
                         <ul className="carousel__list">
                             <li className="carousel__item TEEvent1" id="RTEPoster1" data-pos="-2">
-                                <img src={Decode} className="RTEPosters" />
+                                <img alt="poster" src={Decode} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent2" id="RTEPoster2" data-pos="-1">
-                                <img src={Futsal} className="RTEPosters" />
+                                <img alt="poster" src={Futsal} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent5" id="RTEPoster5" data-pos="0">
-                                <img src={KeyboardWarriors} className="RTEPosters" />
+                                <img alt="poster" src={KeyboardWarriors} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent4" id="RTEPoster4" data-pos="1">
-                                <img src={ElicitExpo} className="RTEPosters" />
+                                <img alt="poster" src={ElicitExpo} className="RTEPosters" />
                             </li>
                             <li className="carousel__item TEEvent3" id="RTEPoster3" data-pos="2">
-                                <img src={RoboRacing} className="RTEPosters" />
+                                <img alt="poster" src={RoboRacing} className="RTEPosters" />
                             </li>
                         </ul>
                     </div>
