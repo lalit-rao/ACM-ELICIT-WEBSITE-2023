@@ -2,7 +2,6 @@
 import { useRef, useState, useEffect } from "react";
 import { animate, motion, useMotionValue, useTransform } from "framer-motion";
 import "./CounterCards.css";
-import { FaUser, FaCheck, FaStore, FaSmile } from "react-icons/fa"; // Using react-icons
 
 export default function CounterCards() {
     const [hasAnimated, setHasAnimated] = useState(false);

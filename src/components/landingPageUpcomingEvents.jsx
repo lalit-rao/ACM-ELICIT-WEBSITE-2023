@@ -1,21 +1,8 @@
 import {ScrollingOffSetPosters, ScrollingPosters} from "./ScrollingPosters.jsx";
-import poster1 from "../assets/images/RTE23Posters/Elicit.webp";
-import poster2 from "../assets/images/RTE23Posters/ComingSoon.webp";
 import {
-    CodeRelay,
-    Defi,
     GamersAsylum,
-    Hacks,
     ElicitExpo,
-    Hacktober,
-    Polysis,
-    ImPrompt,
-    ReputedSpeakers,
-    UIUX,
-    ElicitMasterPoster,
-    RoboSoccer,
-    SwapBoard,
-    Eunoia, DroneRacing, RoboRacing, Futsal,
+    DroneRacing, RoboRacing, Futsal,
 } from "../assets/images/index.js";
 
 import './landingPageUpcomingEvents.css'

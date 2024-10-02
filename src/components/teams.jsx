@@ -366,10 +366,10 @@ const LandingPageConvener = () => {
                             </h1>
                             <p>Dominant, Humbly</p>
                             <div className="row0">
-                                <a target="_blank" href="https://instagram.com/sohamdixit__?igshid=MzRlODBiNWFlZA==">
+                                <a target="_blank" href="https://instagram.com/sohamdixit__?igshid=MzRlODBiNWFlZA==" rel="noreferrer">
                                     <img src={Instagram} alt="instagram" />
                                 </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/soham-dixit-0879461b0">
+                                <a target="_blank" href="https://www.linkedin.com/in/soham-dixit-0879461b0" rel="noreferrer">
                                     <img src={Linkedin} alt="linkedin" />
                                 </a>
                             </div>

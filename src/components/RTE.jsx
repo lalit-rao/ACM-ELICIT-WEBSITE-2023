@@ -1,11 +1,8 @@
 import  { useState } from "react";
 import { RTEEventsList } from "./RTEData.js";
-import poster3 from "../assets/images/RTE23Posters/Elicit.webp";
-import poster4 from "../assets/images/RTE23Posters/Futsal.webp";
-import poster5 from "../assets/images/RTE23Posters/Decode.webp";
 import "./StackedCards.css";
 import "./RTE.css";
-import {Decode, ElicitExpo, Futsal, KeyboardWarriors, RoboRacing, RoboSoccer} from "../assets/images/index.js";
+import {Decode, ElicitExpo, Futsal, KeyboardWarriors, RoboRacing} from "../assets/images/index.js";
 
 var LoadedCarouselScript = false;
 
@@ -26,6 +23,7 @@ const RTEContainer = () => {
             return;
         }
 
+        // eslint-disable-next-line no-undef
         update(newActive, eventId);
         setRTESelectedDate(RTEEventsList[eventId.slice(1)]);
     };

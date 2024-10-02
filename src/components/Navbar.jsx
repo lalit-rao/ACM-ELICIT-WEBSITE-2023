@@ -2,7 +2,6 @@ import {useRef, useState} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import "../components/Navbar.css";
 import {logo} from "../assets/images/index.js";
-import {Link} from "react-router-dom";
 
 
 function Navbar() {
