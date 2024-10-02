@@ -12,12 +12,12 @@ const LandingPageConvener = () => {
                 <div className="card0">
                     <div className="card-inner0">
                         <div className="front0 Person-10">
-                            <h2>Soham Dixit</h2>
+                            <h2>Kuljeet Singh Shekhawat</h2>
                             <p>Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
-                                Soham <span>Dixit</span>
+                                Kuljeet <span>Singh Shekhawat</span>
                             </h1>
                             <p>Dominant, Humbly</p>
                             <div className="row0">
@@ -40,12 +40,12 @@ const LandingPageConvener = () => {
                 <div className="card0">
                     <div className="card-inner0">
                         <div className="front0 Person-20">
-                            <h2>Nikunj Agarwal</h2>
+                            <h2>Neet Jain</h2>
                             <p>Co-Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
-                                Nikunj <span>Agarwal</span>
+                                Neet <span>Jain</span>
                             </h1>
                             <p>There can be no false steps now. The higher up the mountain the more treacherous the
                                 path.</p>
@@ -63,12 +63,12 @@ const LandingPageConvener = () => {
                 <div className="card0">
                     <div className="card-inner0">
                         <div className="front0 Person-30">
-                            <h2>Vishesh Aggarwal</h2>
+                            <h2>Ayan Parashar</h2>
                             <p>Co-Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
-                                Vishesh <span>Aggarwal</span>
+                                Ayan <span>Parashar</span>
                             </h1>
                             <p>If you let your learning lead to knowledge, you become a fool.</p>
                             <div className="row0">
@@ -86,12 +86,12 @@ const LandingPageConvener = () => {
                 <div className="card0">
                     <div className="card-inner0">
                         <div className="front0 Person-40">
-                            <h2>Harshit Shah</h2>
+                            <h2>Priyanshu</h2>
                             <p>Co-Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
-                                Harshit <span>Shah</span>
+                                Priyanshu <span></span>
                             </h1>
                             <p>"That which is dreamed can never be lost, can never be undreamed." ~ Neil Gaiman.</p>
                             <div className="row0">

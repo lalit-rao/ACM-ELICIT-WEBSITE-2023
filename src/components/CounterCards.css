@@ -9,15 +9,17 @@
 
 #animated-box .counterCards-text h1 {
     margin-right: 5px;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     font-weight: bolder;
+    color: white;
 }
 
 #animated-box .counterCards-text p {
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bolder;
+    color: white;
 }
 
 .cc-card .icon {
@@ -33,8 +35,6 @@
     max-width: 80%;
     margin: 0 auto;
     justify-content: space-between;
-    /*position: relative;
-    top: 70px;*/
 }
 
 #animated-box .cc-row .cc-column {
@@ -42,13 +42,25 @@
     top: -35px;
     height: 140px;
     width: 250px;
-    background-color: #444;
+    background: linear-gradient(135deg, #5327a7, #6c13a5, #8212c6); /* Gradient colors */
     color: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Larger shadow for a subtle lift */
     border-radius: 30px;
-    background-color: rgba(81, 34, 159, 0.9);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
 }
 
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#animated-box .cc-row .cc-column:hover {
+    transform: translateY(-10px); /* Subtle hover effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
 
 .cc-card {
     display: flex;
@@ -66,12 +78,15 @@
     font-size: 1.2rem;
     font-weight: bolder;
     letter-spacing: 0.05rem;
+    color: white;
 }
 
 #animated-box .space {
     margin-right: 5px;
+    color: white;
 }
 
+/* Responsive adjustments */
 @media only screen and (min-width: 319px) and (max-width: 425px) {
     #animated-box .cc-row {
         display: flex;
@@ -129,7 +144,6 @@
         align-items: center;
         margin-right: 40px;
     }
-
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1330px) {

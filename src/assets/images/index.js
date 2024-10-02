@@ -39,9 +39,6 @@ import MI1 from './mainImage.png'
 import GitHub from './Convener/github.svg'
 import Linkedin from './Convener/linkedin.svg'
 import Instagram from './Convener/instagram.svg'
-import Person1 from './Convener/soham.webp';
-import Person2 from './Convener/nikunj.webp';
-import Person3 from './Convener/harshit.webp';
 import Teaser from './teaser.mp4';
 import HeroVid from './Hero-Vid.mp4';
 import Decode from './RTE23Posters/Decode.webp';
@@ -89,10 +86,18 @@ import img22 from './TeamsPage/img22.webp';
 import img23 from './TeamsPage/img23.webp';
 import img24 from './TeamsPage/img24.webp';
 import heroLogo from './herologo.svg';
-import footerLogocombined from './logoElicit.png'
-import footerLogoMain from './ElogoElicit.png'
+import footerLogocombined from './logoElicit.png';
+import footerLogoMain from './ElogoElicit.png';
+import Person1 from './Convener/Kuljeet.webp'
+import Person2 from './Convener/Neet.webp'
+import Person3 from './Convener/Ayan.webp'
+import Person4 from './Convener/Priyanshu.webp'
 
 export {
+    Person1,
+    Person2,
+    Person3,
+    Person4,
     footerLogocombined,
     footerLogoMain,
     heroLogo,
@@ -138,9 +143,6 @@ export {
     GitHub,
     Linkedin,
     Instagram,
-    Person1,
-    Person2,
-    Person3,
     MI1,
     Decode,
     Futsal,

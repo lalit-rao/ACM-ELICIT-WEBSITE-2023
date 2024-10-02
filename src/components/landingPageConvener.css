@@ -58,19 +58,19 @@
 }
 
 .Person-10 {
-    background-image: url("../assets/images/Convener/soham.webp");
+    background-image: url("../assets/images/Convener/Kuljeet.webp");
 }
 
 .Person-20 {
-    background-image: url("../assets/images/Convener/nikunj.webp");
+    background-image: url("../assets/images/Convener/Neet.webp");
 }
 
 .Person-30 {
-    background-image: url("../assets/images/Convener/vishesh.webp");
+    background-image: url("../assets/images/Convener/Ayan.webp");
 }
 
 .Person-40 {
-    background-image: url("../assets/images/Convener/harshit.webp");
+    background-image: url("../assets/images/Convener/Priyanshu.webp");
 }
 
 .front0 h2 {
@@ -97,13 +97,14 @@
 }
 
 .back0 h1 {
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: bold;
     line-height: 55px;
     margin-bottom: 10px;
 }
 
 .back0 h1 span {
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .back0 p {
