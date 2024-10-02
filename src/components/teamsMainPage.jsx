@@ -1,5 +1,5 @@
 import Navbar from "./Navbar.jsx";
-import Footer from "./footer.jsx";
+import Footer from "./Footer.jsx";
 import Teams from "./teams.jsx";
 
 const TeamsMainPage = () => {
