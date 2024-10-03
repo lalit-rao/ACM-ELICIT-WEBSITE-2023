@@ -13,3 +13,249 @@
     -webkit-text-stroke: 1px rgb(200, 11, 53); /* Solid outline color (black) */
 }
 
+
+
+.event-container{
+  width: 90vw;
+  padding: 10px;
+  margin: 50px;
+
+}
+.event-wrapper{
+  width: 300px;
+  height: 423px;
+  margin: 20px;
+}
+.remove{
+  width: 100%;
+  height: 100%;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #8e00e7 0%, rgb(158, 158, 158) 100%);
+  opacity: 70%;
+}
+
+.event-holder{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.highlighted{
+  border: 2px solid #ffffff;
+}
+
+
+.calendar{
+  margin-top: 50px;
+  box-shadow: 0px 0px 15px 0px #ac27ff;
+  width: 320px;
+  height: 400px;
+  border: 1px solid #e4b2ffa8;
+  backdrop-filter: blur(10px);
+  background-color: #100014;
+}
+.calendar-month{
+  height: 70px;
+  color: #9902f1;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar-header{
+  height: 50px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+  font-size: large;
+}
+
+.calendar-body{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 278px;
+
+  color: aliceblue;
+
+  display: grid;
+  gap: 5px;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+.calendar-day{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+}
+.calendar-day.disabled {
+
+  color: #6d6d6d;
+}
+
+.calendar-day.clickable {
+  color: aliceblue;
+  cursor: pointer;
+  opacity: 1;
+  transition: background-color 0.3s ease;
+}
+
+
+.calendar-day.clickable:hover {
+  background-color: #6500cb98;
+  color: rgb(255, 255, 255);
+  transition: height 0.3s ease;
+}
+
+.calendar-day.selected {
+  background-color: #8b00cb;
+  color: white;
+}
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.899);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(119, 119, 119, 0.173);
+  width: 80%;
+  height: 80%;
+  color: white;
+  overflow-y: scroll;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: #b50000; */
+  background: linear-gradient(to right, #9e00e7, #ffeadd,#ffffff, #ffffff,#ffffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 30px;
+}
+.popup-content {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.popup-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fffcfc;
+}
+.event-poster{
+  height: 300px;
+  width: 200px;
+}
+.photos-gallery{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+.past-photo{
+  height: 90%;
+  width: 30%;
+  background-color: #fffcfc;
+}
+.past-photo:hover{
+  scale: 1.05;
+}
+.registerBtn{
+  border: 2px solid #af24fa;
+  padding: 5px;
+  margin: 20px;
+  font-size: 20px;
+  background: linear-gradient(to right, #9e00e7, #ffeadd);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  border-radius: 10px;
+}
+.registerBtn:hover{
+  background: linear-gradient(to right, #fbfbfb, #9e00e7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  border: 2px solid #c85bff;
+}
+.popup-container::-webkit-scrollbar{
+  width: 5px;
+  background-color:#000000;
+  opacity:  0.5;
+}
+.event-page{
+  background-color: #000000;
+}
+.toggle-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle {
+  margin: 20px;
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background-color: #000000;
+  box-shadow: 0 2px 5px #ac27ff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fcfcfc;
+  font-size: 30px;
+}
+
+.slider {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 59px;
+  background: linear-gradient(145deg, #9b39e6, #6906a3);
+  border-radius: 20%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 5px #ac27ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-text{
+  color: #000000;
+}
+.toggle.active .slider {
+  transform: translateX(100px);
+}

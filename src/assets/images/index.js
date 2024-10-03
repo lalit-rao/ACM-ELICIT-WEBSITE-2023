@@ -47,6 +47,8 @@ import DroneRacing from './RTE23Posters/DroneRacing.webp';
 import RoboRacing from './RTE23Posters/RoboRacing.webp';
 import StockMarket from './RTE23Posters/StockMarket.webp';
 import GamersAsylum from './RTE23Posters/GamerAsylum.webp';
+import Events from './RTE23Posters/Events.jpeg';
+import SecretSociety from './RTE23Posters/SecretSociety.jpeg';
 import KeyboardWarriors from './RTE23Posters/KeyboardWarriors.webp';
 import CodeRelay from './ElicitPosters/CODE RELAY.webp';
 import Defi from './ElicitPosters/DeFi.webp';
@@ -94,6 +96,8 @@ import Person3 from './Convener/Ayan.webp'
 import Person4 from './Convener/Priyanshu.webp'
 
 export {
+    SecretSociety,
+    Events,
     Person1,
     Person2,
     Person3,
