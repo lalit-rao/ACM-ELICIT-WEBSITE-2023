@@ -1,112 +1,3 @@
-/*
-!*body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #000;
-}*!
-
-.box {
-    position: relative;
-    width: 280px;
-    height: 200px;
-    transform-style: preserve-3d;
-    animation: rotate 32s linear infinite;
-    z-index: 1;
-}
-
-@keyframes rotate {
-    0% {
-        transform: perspective(1000px) rotateY(0deg);
-    }
-
-    100% {
-        transform: perspective(1000px) rotateY(360deg);
-    }
-}
-
-.box span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform-origin: center;
-    transform-style: preserve-3d;
-}
-
-.box span img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.7s ease-in;
-    border-radius: 20px;
-    box-shadow: 0 0 10px 1px #a257db;
-
-}
-
-
-.box span:hover img {
-    transform: translateY(-30px) scale(1.2);
-}
-
-@media only screen and (min-width: 319px) and (max-width: 425px) {
-    .box {
-        position: relative;
-        width: 7.5em; !* 230px *!
-        height: 6.5em;
-        transform-style: preserve-3d;
-        !*animation: rotate 40s linear infinite;*!
-    }
-
-    .box span:hover img {
-        transform: translateY(-15px) scale(1.1);
-    }
-
-    .box span {
-        --translate-z: 10rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    .box span {
-        --translate-z: 390px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .box span {
-        --translate-z: 21em;
-    }
-
-    .box {
-        position: relative;
-        width: 15.5em; !* 230px *!
-        height: 10.5em;
-        transform-style: preserve-3d;
-        !*animation: rotate 40s linear infinite;*!
-    }
-
-    .box span:hover img {
-        transform: translateY(-15px) scale(1.1);
-    }
-}
-
-@media (min-width: 424px) and (max-width: 767px) {
-    .box span {
-        --translate-z: 390px;
-    }
-}
-*/
-
-
-
-
-
 /*body {
     display: flex;
     justify-content: center;
@@ -121,7 +12,8 @@
     height: 200px;
     transform-style: preserve-3d;
     animation: rotate 32s linear infinite;
-    z-index: 1;
+    z-index: 0;
+
 }
 
 @keyframes rotate {
@@ -141,7 +33,10 @@
     width: 100%;
     height: 100%;
     transform-origin: center;
-    transform-style: preserve-3d;
+    transform-style:preserve-3d;
+    z-index: 1;
+    backface-visibility: hidden;
+    will-change: transform;
 }
 
 .box span img {
@@ -154,31 +49,32 @@
     transition: 0.7s ease-in;
     border-radius: 20px;
     box-shadow: 0 0 10px 1px #a257db;
-
+    z-index: 1;
+    backface-visibility: hidden;
+    will-change: transform;
 }
 
 
-.box span:hover img {
+
+.box span:hover img{
     transform: translateY(-30px) scale(1.2);
 }
 
-@media only screen and (min-width: 319px) and (max-width: 425px) {
+@media only screen and (min-width:319px) and (max-width:425px) {
     .box {
         position: relative;
-        width: 7.5em;
-        height: 6.5em;
+        width: 10.5em; /* 230px */
+        height: 8.5em;
         transform-style: preserve-3d;
+        /*animation: rotate 40s linear infinite;*/
     }
-
-    .box span:hover img {
+    .box span:hover img{
         transform: translateY(-15px) scale(1.1);
     }
-
     .box span {
-        --translate-z: 10rem;
+        --translate-z: 14em;
     }
 }
-
 @media (min-width: 1024px) {
     .box span {
         --translate-z: 390px;
@@ -189,7 +85,6 @@
     .box span {
         --translate-z: 21em;
     }
-
     .box {
         position: relative;
         width: 15.5em; /* 230px */
@@ -197,8 +92,7 @@
         transform-style: preserve-3d;
         /*animation: rotate 40s linear infinite;*/
     }
-
-    .box span:hover img {
+    .box span:hover img{
         transform: translateY(-15px) scale(1.1);
     }
 }
@@ -207,40 +101,4 @@
     .box span {
         --translate-z: 390px;
     }
-}
-
-
-/* Ensures the 3D images are rendered smoothly */
-.box span {
-    backface-visibility: hidden; /* Hide backface */
-    will-change: transform; /* Optimize rendering */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform-origin: center;
-    transform-style: preserve-3d;
-}
-
-.box {
-    position: relative;
-    width: 280px;
-    height: 200px;
-    transform-style: preserve-3d;
-    animation: rotate 32s linear infinite;
-    z-index: 1; /* Ensure this is lower than the navbar */
-}
-
-.box span img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.7s ease-in;
-    border-radius: 20px;
-    box-shadow: 0 0 10px 1px #a257db;
-    backface-visibility: hidden; /* Hide the back of the image */
 }
