@@ -2,8 +2,9 @@
 
 .title-heading-box {
     text-align: center;
-    font-size: 4.5em;
-    margin-bottom: 1.5em;
+    font-size: 3.5em;
+    max-width: 90%;
+    margin: 0 auto 1.5em;
     /* Add margin-top if needed */
 }
 
