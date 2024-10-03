@@ -6,14 +6,14 @@ const LandingPageConvener = () => {
     return (
         <div className="containerof0">
             <div className="title-convener-1">
-                <Title firstWord={""} secondWord={"Convener"}/>
+                <Title firstWord={"Head"} secondWord={"Convener"}/>
             </div>
             <div className="containerof-1">
                 <div className="card0">
                     <div className="card-inner0">
                         <div className="front0 Person-10">
                             <h2>Kuljeet Singh Shekhawat</h2>
-                            <p>Convener</p>
+                            <p>Head Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
@@ -33,7 +33,7 @@ const LandingPageConvener = () => {
                 </div>
             </div>
             <div className="title-convener-2">
-                <Title firstWord={""} secondWord={"Co-Conveners"}/>
+                <Title firstWord={""} secondWord={"Conveners"}/>
 
             </div>
             <div className="containerof-20">
@@ -41,7 +41,7 @@ const LandingPageConvener = () => {
                     <div className="card-inner0">
                         <div className="front0 Person-20">
                             <h2>Neet Jain</h2>
-                            <p>Co-Convener</p>
+                            <p>Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
@@ -63,7 +63,7 @@ const LandingPageConvener = () => {
                     <div className="card-inner0">
                         <div className="front0 Person-30">
                             <h2>Ayan Parashar</h2>
-                            <p>Co-Convener</p>
+                            <p>Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
@@ -86,7 +86,7 @@ const LandingPageConvener = () => {
                     <div className="card-inner0">
                         <div className="front0 Person-40">
                             <h2>Priyanshu</h2>
-                            <p>Co-Convener</p>
+                            <p>Convener</p>
                         </div>
                         <div className="back0">
                             <h1>
