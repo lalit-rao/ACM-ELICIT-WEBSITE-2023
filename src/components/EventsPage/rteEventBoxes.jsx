@@ -22,7 +22,7 @@ const RteEventBoxes = ({ events, selectedDate, setSelectedDate, setActiveBox, ac
       Location: 'Infront of Nescafe',
       PrizePool: 'INR 3,000/-',
       date: moment('2024-09-26'),
-      link: 'https://docs.google.com/forms/...',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSegB5aszJVKqQewh8jhab4OOjlNP_AQBw4soqDC3KSNoig86A/viewform',
       photos: ['path/to/photo1.jpg', 'path/to/photo2.jpg', 'path/to/photo3.jpg'],
     },
     {
@@ -32,7 +32,7 @@ const RteEventBoxes = ({ events, selectedDate, setSelectedDate, setActiveBox, ac
       Location: 'Elicit Website',
       PrizePool: 'INR 5,000/-',
       date: moment('2024-10-01'),
-      link: 'https://unstop.com/competitions/decode...',
+      link: 'https://unstop.com/competitions/decode-40-elicit24-manipal-university-mu-jaipur-1146822?lb=67bqNzw',
       photos: ['path/to/photo1.jpg', 'path/to/photo2.jpg', 'path/to/photo3.jpg'],
     },
     {
@@ -42,7 +42,7 @@ const RteEventBoxes = ({ events, selectedDate, setSelectedDate, setActiveBox, ac
       Location: 'ACM Chowk(Infront of Nescafe)',
       PrizePool: 'INR 7,000/-',
       date: moment('2024-10-02'),
-      link: 'https://docs.google.com/forms/...',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdhwoExmdLWcJA6cG6fX-AvESgxboO8B6ZhIiytNnhv7v0vGw/viewform',
       photos: ['path/to/photo1.jpg', 'path/to/photo2.jpg', 'path/to/photo3.jpg'],
     },
     {
@@ -52,7 +52,7 @@ const RteEventBoxes = ({ events, selectedDate, setSelectedDate, setActiveBox, ac
       Location: 'MUJ Campus',
       PrizePool: 'INR 5,000/-',
       date: moment('2024-10-05'),
-      link: 'https://docs.google.com/forms/...',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdvCUD_wM3ugzfHvbDqu-vV_FmhvM530OFw7dkwI10zH81UQQ/viewform',
       photos: ['path/to/photo1.jpg', 'path/to/photo2.jpg', 'path/to/photo3.jpg'],
     },
   ];
