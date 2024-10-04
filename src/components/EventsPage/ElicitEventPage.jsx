@@ -22,7 +22,7 @@ const events = [
     title: 'HACKS 9.0',
     image: Events,
     description: "A 48-HOUR HACKATHON, PREVIOUS EDITIONS OF WHICH HAVE SEEN OVER 900 PARTICIPANTS PAN-INDIA.",
-    registerLink: 'https://example.com/register/hacks-9'
+    registerLink: 'https://unstop.com/p/muj-hacks-90-elicit24-muj-acm-student-chapter-1164635'
   },
   {
     id: 4,
@@ -57,14 +57,14 @@ const events = [
     title: 'ELICIT EXPO',
     image: ElicitExpo,
     description: "THE ULTIMATE EXHIBITION OF INNOVATION! A SHOWCASE OF EVERYTHING ROBOTICS",
-    registerLink: 'https://example.com/register/elicit-expo'
+    registerLink: 'https://unstop.com/p/muj-elicit-expo-20-elicit24-muj-acm-student-chapter-1147410'
   },
   {
     id: 9,
     title: 'Kagglethon',
     image: Events,
     description: "A DATA SCIENCE SHOWDOWN FOR MACHINE LEARNING MASTERS WHICH ALLOWS PARTICIPANTS TO COMPETE IN SOLVING MACHINE LEARNING PROBLEMS",
-    registerLink: 'https://example.com/register/kagglethon'
+    registerLink: 'https://unstop.com/p/kagglethon-elicit24-muj-acm-student-chapter-1146970'
   },
   {
     id: 10,
