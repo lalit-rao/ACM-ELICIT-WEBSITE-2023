@@ -31,8 +31,8 @@ export default function CounterCards() {
                 if (entry.isIntersecting) {
                     // Start animations
                     animate(count1, 4000, { duration: 3 });
-                    animate(count2, 20, { duration: 3 });
-                    animate(count3, 20, { duration: 3 });
+                    animate(count2, 12, { duration: 3 });
+                    animate(count3, 8, { duration: 3 });
                     animate(count4, 200, { duration: 3 });
 
                     setHasAnimated(true); // Ensure animations run only once

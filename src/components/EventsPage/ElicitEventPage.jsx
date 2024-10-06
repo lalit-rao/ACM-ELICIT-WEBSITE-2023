@@ -8,14 +8,14 @@ const events = [
     title: 'Speaker Talk',
     image: Events,
     description: 'Unravel the mysteries of coding and algorithms in this exciting event.',
-    registerLink: 'https://example.com/register/speaker-talk' // Add your actual link here
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdmCSMs2QzJqFAwV4P_0gAeewaP-nhWGjC9OfOeo_gGidLc9w/viewform' // Add your actual link here
   },
   {
     id: 2,
     title: 'Stock Market Showdown',
     image: StockMarket,
     description: "The ultimate Bull vs. Bear brawl is back! The Stock Market Showdown at Elicit '24 is bigger, bolder, and more intense than ever!",
-    registerLink: 'https://example.com/register/stock-market-showdown'
+    registerLink: 'https://community.stockgro.club/form/9b5cdbb8-d975-4153-8ce1-fa07e8f823a8'
   },
   {
     id: 3,
@@ -29,28 +29,28 @@ const events = [
     title: 'Drone Exp Zone',
     image: DroneRacing,
     description: "AN EXHILARATING HIGH-SPEED COMPETITION WHERE PARTICIPANTS PILOT DRONES THROUGH CHALLENGING OBSTACLE COURSES IN A TEST OF SKILL AND PRECISION.",
-    registerLink: 'https://example.com/register/drone-exp-zone'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfVCewScCx9TssHpqaSfAy6kCe3-uD0ZqhTvcF7gwWrKWv-jQ/viewform'
   },
   {
     id: 5,
     title: 'Robo Exp Zone',
     image: RoboRacing,
     description: 'Challenge conventional thinking and push boundaries in this unconventional event.',
-    registerLink: 'https://example.com/register/robo-exp-zone'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe6BUAxAF_fED88kNSzwE1nek1hC7LLJzwvxJOnBFbQj-hdmQ/viewform'
   },
   {
     id: 6,
     title: 'DIFFUSE',
     image: Events,
     description: "DIFFUSE IS A THRILLING EVENT WHERE PARTICIPANTS RACE AGAINST TIME TO DISASSEMBLE A SIMULATED BOMB USING HARDWARE ELEMENTS LIKE ARDUINOS, LEDS, AND JUMPER WIRES.",
-    registerLink: 'https://example.com/register/diffuse'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSekn97rtozJ6EkbP_n3LVHTEIo-zu9hZgxd_RooLmeb-dOxqw/viewform'
   },
   {
     id: 7,
     title: 'GAMERS ASYLUM',
     image: GamersAsylum,
     description: "GAMERS ASYLUM IS A COMPETITIVE EVENT WHERE COLLEGE STUDENTS FACE OFF IN POPULAR VIDEO GAMES, HIGHLIGHTING THEIR SKILLS AND PASSION FOR GAMING.",
-    registerLink: 'https://example.com/register/gamers-asylum'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd2Z0oVMyMYoCiiLmcneNppqqZG_aTX6tT4xWtJ102IrLGMAw/viewform'
   },
   {
     id: 8,
@@ -71,7 +71,7 @@ const events = [
     title: 'CODERS FEUD',
     image: Events,
     description: 'Challenge conventional thinking and push boundaries in this unconventional event.',
-    registerLink: 'https://example.com/register/coders-feud'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc4NfCEwcjS4C4Vou5EW6IYZ3JQXQklm_2NkI5D-wmAnt7NNg/viewform'
   },
 ];
 
@@ -116,7 +116,7 @@ export default function ElicitEvents() {
             title={event.title}
             image={event.image}
             description={event.description}
-            registerLink={event.registerLink} // Pass the registerLink prop
+            registerLink={event.registerLink}
           />
         ))}
       </div>

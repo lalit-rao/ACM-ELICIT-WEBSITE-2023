@@ -94,8 +94,12 @@ import Person1 from './Convener/Kuljeet.webp'
 import Person2 from './Convener/Neet.webp'
 import Person3 from './Convener/Ayan.webp'
 import Person4 from './Convener/Priyanshu.webp'
+import insta from './footer/insta.png'
+import linktree from './footer/linktree.webp'
 
 export {
+    linktree,
+    insta,
     SecretSociety,
     Events,
     Person1,
