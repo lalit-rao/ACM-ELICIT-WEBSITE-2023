@@ -2,7 +2,7 @@ import {ScrollingOffSetPosters, ScrollingPosters} from "./ScrollingPosters.jsx";
 import {
     GamersAsylum,
     ElicitExpo,
-    DroneRacing, RoboRacing, Futsal,
+    DroneRacing, RoboRacing, Futsal, Scapegoat, Hacks, Kagglethon,
 } from "../assets/images/index.js";
 
 import './landingPageUpcomingEvents.css'
@@ -27,7 +27,7 @@ const landingPageUpcomingEvents = () => {
             </div>
             <div className="element4 GridGap"></div>
             <div className="element5 GridGap PosterBorder">
-                <a href="/Upcoming-Events">
+                <a href="/#/upcoming-events">
                     <img src={GamersAsylum} className="Posters"/>
                 </a>
             </div>
@@ -43,13 +43,13 @@ const landingPageUpcomingEvents = () => {
                 <div className="VerticalLine" style={{background: "#1f0f3d"}}></div>
             </div>
             <div className="element7 GridGap PosterBorder">
-                <a href="/Upcoming-Events">
+                <a href="/#/upcoming-events">
                     <img src={DroneRacing} className="Posters"/>
                 </a>
             </div>
             <div className="element8 GridGap PosterBorder">
-                <a href="/Upcoming-Events">
-                    <img src={ElicitExpo} className="Posters"/>
+                <a href="/#/upcoming-events">
+                    <img src={Scapegoat} className="Posters"/>
                 </a>
             </div>
             <div className="element9 GridGap PosterBorder">
@@ -57,8 +57,8 @@ const landingPageUpcomingEvents = () => {
             </div>
             <div className="element10 GridGap"></div>
             <div className="element11 GridGap PosterBorder">
-                <a href="/Upcoming-Events">
-                    <img src={RoboRacing} className="Posters"/>
+                <a href="/#/upcoming-events">
+                    <img src={Hacks} className="Posters"/>
                 </a>
             </div>
             <div className="element12"></div>
@@ -66,8 +66,8 @@ const landingPageUpcomingEvents = () => {
             <div className="element14"></div>
             <div className="element15 GridGap"></div>
             <div className="element16 GridGap PosterBorder">
-                <a href="/Upcoming-Events">
-                    <img src={Futsal} className="Posters"/>
+                <a href="/#/upcoming-events">
+                    <img src={Kagglethon} className="Posters"/>
                 </a>
             </div>
             <div className="element17 GridGap"></div>

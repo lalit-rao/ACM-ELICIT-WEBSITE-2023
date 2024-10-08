@@ -20,7 +20,7 @@ const events = [
     time: '11:00 AM',
     image: StockMarket,
     description: "The ultimate Bull vs. Bear brawl is back! The Stock Market Showdown at Elicit '24 is bigger, bolder, and more intense than ever!",
-    registerLink: 'https://community.stockgro.club/form/9b5cdbb8-d975-4153-8ce1-fa07e8f823a8'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdgCDUArNpCgTLx4iAQ20n4AD7rt5Bmvj8IQxNvO7kWXWqukA/viewform?usp=sf_link'
   },
   {
     id: 2,
