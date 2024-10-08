@@ -13,8 +13,8 @@ const App = () => {
                 <HashRouter>
                     <Routes>
                         <Route path="/" element={<LandingPage/>}/>
-                        <Route path="#/Gallery" element={<GalleryPage/>}/>
-                        <Route path="#/Upcoming-Events" element={<UpcomingEventsMainPage/>}/>
+                        <Route path="/#/Gallery" element={<GalleryPage/>}/>
+                        <Route path="/#/Upcoming-Events" element={<UpcomingEventsMainPage/>}/>
                         {/*<Route path="Team" element={<Teams/>}/>*/}
                     </Routes>
                 </HashRouter>
