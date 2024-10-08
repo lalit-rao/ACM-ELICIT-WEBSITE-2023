@@ -12,7 +12,7 @@ const App = () => {
             <div className="RootDiv">
                 <Routes>
                     <Route path="/" element={<LandingPage/>}/>
-                    <Route path="/Gallery" element={<GalleryPage/>}/>
+                    <Route path="Gallery" element={<GalleryPage/>}/>
                     <Route path="/Upcoming-Events" element={<UpcomingEventsMainPage/>}/>
                     {/*<Route path="Team" element={<Teams/>}/>*/}
                 </Routes>
