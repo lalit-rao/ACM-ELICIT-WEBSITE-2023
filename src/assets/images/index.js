@@ -52,8 +52,13 @@ import SecretSociety from './RTE23Posters/SecretSociety.jpeg';
 import KeyboardWarriors from './RTE23Posters/KeyboardWarriors.webp';
 import CodeRelay from './ElicitPosters/CODE RELAY.webp';
 import Defi from './ElicitPosters/DeFi.webp';
-import Hacks from './ElicitPosters/Hacks 8.0.webp';
 import ElicitExpo from './RTE23Posters/ElicitExpo.webp';
+import Hacks from './RTE23Posters/Hacks.webp';
+import CodersFeud from './RTE23Posters/CoderFeud.webp';
+import Kagglethon from './RTE23Posters/Kagglethon.webp';
+import Scapegoat from './RTE23Posters/Scapegoat.webp';
+import RoboticsWorkshop from './RTE23Posters/RoboticsWorkshop.webp';
+import Diffuse from './RTE23Posters/Diffuse.webp';
 import Hacktober from './ElicitPosters/HACKTOBER.webp';
 import Polysis from './ElicitPosters/POLYSIS.webp';
 import ImPrompt from './ElicitPosters/Imprompto final.webp';
@@ -98,6 +103,11 @@ import insta from './footer/insta.png'
 import linktree from './footer/linktree.webp'
 
 export {
+    RoboticsWorkshop,
+    CodersFeud,
+    Kagglethon,
+    Scapegoat,
+    Diffuse,
     linktree,
     insta,
     SecretSociety,

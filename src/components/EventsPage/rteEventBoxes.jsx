@@ -96,7 +96,7 @@ const RteEventBoxes = ({ events, selectedDate, setSelectedDate, setActiveBox, ac
   });
 
   return (
-    <div className="event-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6">
+    <div className="event-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 max-w-[100%] mx-auto">
       {events.map((event, index) => (
         <div
           key={index}
