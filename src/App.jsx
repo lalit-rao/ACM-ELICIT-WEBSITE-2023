@@ -10,7 +10,7 @@ const App = () => {
     return (
         <>
             <div className="RootDiv">
-                <BrowserRouter basename="/ACM-ELICIT-WEBSITE-2023/">
+                <BrowserRouter basename="/">
                     <Routes>
                         <Route path="/" element={<LandingPage/>}/>
                         <Route path="Gallery" element={<GalleryPage/>}/>
