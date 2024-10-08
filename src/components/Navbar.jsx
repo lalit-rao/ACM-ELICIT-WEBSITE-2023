@@ -36,8 +36,8 @@ function Navbar() {
             </a>
             <nav ref={navRef}>
                 <a className="hover-underline-animation" href="/">Home</a>
-                <a className="hover-underline-animation" href="/Gallery">Gallery</a>
-                <a className="hover-underline-animation" href="/Upcoming-Events">Events</a>
+                <a className="hover-underline-animation" href="/#/gallery">Gallery</a>
+                <a className="hover-underline-animation" href="/#/upcoming-events">Events</a>
                 {/*<a className="hover-underline-animation" href="/Team">Team</a>*/}
                 <button
                     className="nav-btn nav-close-btn"
