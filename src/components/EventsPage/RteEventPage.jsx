@@ -26,7 +26,7 @@ const RteEventPage = () => {
   const isEventHighlighted = (eventDate) => dayjs(selectedDate).isSame(eventDate, 'day');
 
   return (
-    <div className="max-w-[90%] mx-auto min-h-screen flex flex-col items-center justify-center container">
+    <div className="min-h-screen flex flex-col items-center justify-center container">
       <h1 className="text-5xl max-w-[90%] mx-auto font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-purple-500">
         ROAD TO ELICIT EVENTS
       </h1>

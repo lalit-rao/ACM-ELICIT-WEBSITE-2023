@@ -1,5 +1,5 @@
 .UEMP {
     position: relative;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    max-width: 90%;
+    margin: 70px auto;
 }

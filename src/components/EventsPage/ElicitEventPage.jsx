@@ -34,7 +34,7 @@ const events = [
   {
     id: 3,
     title: 'HACKS 9.0',
-    date: 'October 11, 2024',
+    date: 'October 11-13, 2024',
     time: '9:00 PM',
     image: Hacks,
     description: "A 48-HOUR HACKATHON, PREVIOUS EDITIONS OF WHICH HAVE SEEN OVER 900 PARTICIPANTS PAN-INDIA.",
@@ -44,7 +44,7 @@ const events = [
     id: 4,
     title: 'Drone Racing Experience',
     date: 'October 12, 2024',
-    time: '1:00 PM',
+    time: '11:00 AM',
     image: DroneRacing,
     description: "AN EXHILARATING HIGH-SPEED COMPETITION WHERE PARTICIPANTS PILOT DRONES THROUGH CHALLENGING OBSTACLE COURSES IN A TEST OF SKILL AND PRECISION.",
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfVCewScCx9TssHpqaSfAy6kCe3-uD0ZqhTvcF7gwWrKWv-jQ/viewform'
@@ -53,7 +53,7 @@ const events = [
     id: 5,
     title: 'Robo Racing Exp Zone',
     date: 'October 12, 2024',
-    time: '1:00 PM',
+    time: '11:00 AM',
     image: RoboRacing,
     description: 'Challenge conventional thinking and push boundaries in this unconventional event.',
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe6BUAxAF_fED88kNSzwE1nek1hC7LLJzwvxJOnBFbQj-hdmQ/viewform'
@@ -80,7 +80,7 @@ const events = [
     id: 8,
     title: 'ELICIT EXPO',
     date: 'October 12, 2024',
-    time: '1:00 PM',
+    time: '11:00 AM',
     image: ElicitExpo,
     description: "THE ULTIMATE EXHIBITION OF INNOVATION! A SHOWCASE OF EVERYTHING ROBOTICS",
     registerLink: 'https://unstop.com/p/muj-elicit-expo-20-elicit24-muj-acm-student-chapter-1147410'
@@ -88,7 +88,7 @@ const events = [
   {
     id: 9,
     title: 'Kagglethon',
-    date: 'October 12, 2024',
+    date: 'October 12-13, 2024',
     time: '9:00 PM',
     image: Kagglethon,
     description: "A DATA SCIENCE SHOWDOWN FOR MACHINE LEARNING MASTERS WHICH ALLOWS PARTICIPANTS TO COMPETE IN SOLVING MACHINE LEARNING PROBLEMS",
@@ -98,7 +98,7 @@ const events = [
     id: 10,
     title: 'CODERS FEUD',
     date: 'October 13, 2024',
-    time: '11:00 AM',
+    time: '1:00 PM',
     image: CodersFeud,
     description: 'Challenge conventional thinking and push boundaries in this unconventional event.',
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc4NfCEwcjS4C4Vou5EW6IYZ3JQXQklm_2NkI5D-wmAnt7NNg/viewform'
@@ -107,19 +107,18 @@ const events = [
     id: 11,
     title: 'Scape G.O.A.T',
     date: 'October 12-13, 2024',
-    time: '6:00 PM',
+    time: '12:00 PM',
     image: Scapegoat,
     description: 'Join Scape GOAT for thrilling Halloween puzzles, mysteries, and exciting team challenges!',
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc4NfCEwcjS4C4Vou5EW6IYZ3JQXQklm_2NkI5D-wmAnt7NNg/viewform'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScgfO8Ny8f9MW5PA5zxLTshTdK1WBre-mosduRBWEcVso59jw/viewform'
   },
   {
     id: 12,
     title: 'Robotics Workshop',
     date: 'October 13, 2024',
-    time: '1:00 PM',
     image: RoboticsWorkshop,
     description: 'A session to teach robotics principles and implementation, in collaboration with Techfest IIT BOMBAY',
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc4NfCEwcjS4C4Vou5EW6IYZ3JQXQklm_2NkI5D-wmAnt7NNg/viewform'
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe6qFTu0pkE625xsP_sqbPwAwtIM_lhsvlnzb5rjstaFWJXkw/viewform'
   },
 ];
 
