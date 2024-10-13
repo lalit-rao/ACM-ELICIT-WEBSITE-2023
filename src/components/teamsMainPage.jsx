@@ -1,7 +1,7 @@
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import Teams from "./teams.jsx";
-import CoreCard from "./CoreCard.jsx";
+// import CoreCard from "./CoreCard.jsx";
 
 const TeamsMainPage = () => {
     return (
@@ -12,9 +12,9 @@ const TeamsMainPage = () => {
             <section className="Teams">
                 <Teams/>
             </section>
-            <section className="Teams">
+            {/*<section className="Teams">
                 <CoreCard/>
-            </section>
+            </section>*/}
             <section className="Footer">
                 <Footer/>
             </section>
