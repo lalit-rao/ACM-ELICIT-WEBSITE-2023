@@ -65,30 +65,18 @@ const Committee = ({committeeName, members}) => {
 const ExecsSection = () => {
     const committees = [
         {
+            name: "EC CREATIVES",
+            members: [
+                {imageClass: "Person-creaf", imageClass2: "Person-crea1"},
+                {imageClass: "Person-creaf", imageClass2: "Person-crea2"},
+            ],
+        },
+        {
             name: "EC WEB DEV",
             members: [
                 {imageClass: "Person-webf", imageClass2: "Person-webb1"},
                 {imageClass: "Person-webf", imageClass2: "Person-webb2"},
                 {imageClass: "Person-webf", imageClass2: "Person-webb3"},
-            ],
-        },
-        {
-            name: "EC Design",
-            members: [
-                {imageClass: "Person-designf", imageClass2: "Person-design1"},
-            ],
-        },
-        {
-            name: "EC Sponsorship",
-            members: [
-                {imageClass: "Person-sponsf", imageClass2: "Person-spons1"},
-            ],
-        },
-        {
-            name: "EC CREATIVES",
-            members: [
-                {imageClass: "Person-creaf", imageClass2: "Person-crea1"},
-                {imageClass: "Person-creaf", imageClass2: "Person-crea2"},
             ],
         },
         {
@@ -107,6 +95,12 @@ const ExecsSection = () => {
             ],
         },
         {
+            name: "EC Design",
+            members: [
+                {imageClass: "Person-designf", imageClass2: "Person-design1"},
+            ],
+        },
+        {
             name: "EC MARKETING",
             members: [
                 {imageClass: "Person-markf", imageClass2: "Person-mark1"},
@@ -119,12 +113,9 @@ const ExecsSection = () => {
             ],
         },
         {
-            name: "EC Media",
+            name: "EC Sponsorship",
             members: [
-                {imageClass: "Person-mediaf", imageClass2: "Person-media1"},
-                {imageClass: "Person-mediaf", imageClass2: "Person-media2"},
-                {imageClass: "Person-mediaf", imageClass2: "Person-media3"},
-                {imageClass: "Person-mediaf", imageClass2: "Person-media4"},
+                {imageClass: "Person-sponsf", imageClass2: "Person-spons1"},
             ],
         },
         {
@@ -134,10 +125,26 @@ const ExecsSection = () => {
                 {imageClass: "Person-techf", imageClass2: "Person-tech2"},
             ],
         },
+        {
+            name: "EC Media",
+            members: [
+                {imageClass: "Person-mediaf", imageClass2: "Person-media1"},
+                {imageClass: "Person-mediaf", imageClass2: "Person-media2"},
+                {imageClass: "Person-mediaf", imageClass2: "Person-media3"},
+                {imageClass: "Person-mediaf", imageClass2: "Person-media4"},
+            ],
+        },
     ];
 
     return (
         <div className="execs-section-container">
+            <div className="title-heading-box1">
+                <div className="title-heading">
+                    <p className="title-heading2">
+                        Executive Committee
+                    </p>
+                </div>
+            </div>
             {committees.map((committee, index) => (
                 <Committee
                     key={index}
