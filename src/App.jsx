@@ -2,7 +2,6 @@ import {Route, Routes} from "react-router-dom";
 import LandingPage from "./components/landingPage.jsx";
 import "./App.css";
 import UpcomingEventsMainPage from "./components/upcomingEventsMainPage.jsx";
-// import Teams from "./components/teamsMainPage.jsx";
 import GalleryPage from "./components/gallery.jsx";
 import TeamsMainPage from "./components/teamsMainPage.jsx";
 
