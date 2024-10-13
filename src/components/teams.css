@@ -1,118 +1,268 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Readex+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Poppins&display=swap');
 
-.heading-box,
-.sub-heading-box {
-    text-align: center;
-    margin-top: 70px;
+.execs-section-container {
+    width: 100%;
+    min-height: 200vh;
+    margin-top: 100px;
 }
-
-.heading {
-    font-size: 80px;
-    font-family: Readex Pro, serif;
-    color: white;
-}
-
-.heading2 {
-    background-image: linear-gradient(to right, rgba(61, 31, 122, 1),rgba(124, 100, 172, 1));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.sub-heading {
-    font-size: 40px;
-    font-family: Readex Pro, serif;
-    color: white;
-}
-.container {
-    position: relative;
+.execs-section-containerof-20 {
     display: flex;
-    justify-content: center;
-    align-items: top;
     flex-wrap: wrap;
-    gap: 100px 50px;
-    margin: 50px 50px;
-    /* background-color: yellow; */
-    /* height: 400px; */
-}
-
-.container .card {
-    display: flex;
-    position: relative;
-    width: 300px;
-    height: 405px;
-    background: rgba(209, 194, 240, 1);
-    border-radius: 50px;
-    transition: 0.3s;
-    color: white;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 50);
+    height: auto;
+    gap:40px;
     justify-content: center;
-}
-
-/* .container .card:hover {
-	height: 450px;
-} */
-
-.container .card .image-box {
-    position: absolute;
-    width: 240px;
-    height: 300px;
-    background: pink;
-    border-radius: 40px;
-    overflow: hidden;
-    transition: 0.3s;
-    object-fit: cover;
-    margin: 10% 10%;
-    margin-top: 10%;
     align-items: center;
 }
 
-.container .card:hover .image-box {
-    scale: 1.15;
+.execs-section-card0 {
+    width: 270px;
+    height: 420px;
+    background-color: transparent;
+    position: relative;
 }
 
-.container .card .content {
+.execs-section-card-inner0 {
+    width: 100%;
+    min-height: 420px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.execs-section-front0,
+.execs-section-back0 {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
     position: absolute;
-    bottom: 20px;
-    width: 100%;
-    height: 35px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 24px;
-    font-family: Readex Pro, serif;
-    transition: 0.3s;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-/* .container .card:hover .content {
-	bottom: 20px;
-	height: 14%;
-} */
-
-.container .card .content h2 {
-    font-size: 1.5em;
-    font-weight: 500;
+.execs-section-front0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.grid {
-    display: grid;
-}
-
-.image {
-    width: 100%;
-}
-
-@media only screen and (min-width: 319px) and(max-width: 786px) {
-    .container {
-        flex-direction: column;
-    }
-}
-
-
-
-
-/* Existing CSS remains unchanged */
-
-.card0.is-flipped .card-inner0 {
+.execs-section-back0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transform: rotateY(180deg);
 }
 
-/* Adjust other styles as needed */
+.execs-section-card0.flip-card-opposite .execs-section-card-inner0 {
+    transform: rotateY(-180deg);
+}
+
+.Person-webf {
+    background-image: url("../assets/images/ExecsTeams/webdev.webp");
+    background-size: contain;
+}
+
+.Person-webb1 {
+    background-image: url("../assets/images/ExecsTeams/lalitrao.webp");
+    background-size: contain;
+
+}
+.Person-webb2 {
+    background-image: url("../assets/images/ExecsTeams/vasu.png");
+    background-size: contain;
+
+}
+.Person-webb3 {
+    background-image: url("../assets/images/ExecsTeams/ayushshashi.webp");
+    background-size: contain;
+
+}
+.Person-creaf{
+    background-image: url("../assets/images/ExecsTeams/creatives.webp");
+    background-size: contain;
+}
+
+.Person-crea1{
+    background-image: url("../assets/images/ExecsTeams/dheeraj.webp");
+    background-size: contain;
+}
+
+.Person-crea2{
+    background-image: url("../assets/images/ExecsTeams/suyash.webp");
+    background-size: contain;
+}
+.Person-markf{
+    background-image: url("../assets/images/ExecsTeams/marketing.webp");
+    background-size: contain;
+}
+.Person-mark1{
+    background-image: url("../assets/images/ExecsTeams/prathana.webp");
+    background-size: contain;
+}
+.Person-sponsf{
+    background-image: url("../assets/images/ExecsTeams/sponsor.webp");
+    background-size: contain;
+}
+.Person-spons1{
+    background-image: url("../assets/images/ExecsTeams/kawshal.webp");
+    background-size: contain;
+}
+.Person-designf{
+    background-image: url("../assets/images/ExecsTeams/design.webp");
+    background-size: contain;
+}
+.Person-design1{
+    background-image: url("../assets/images/ExecsTeams/anshikaa.png");
+    background-size: contain;
+}
+.Person-techf{
+    background-image: url("../assets/images/ExecsTeams/technicls.webp");
+    background-size: contain;
+}
+.Person-tech1{
+    background-image: url("../assets/images/ExecsTeams/adwait.webp");
+    background-size: contain;
+}
+.Person-tech2{
+    background-image: url("../assets/images/ExecsTeams/lalaarnav.webp");
+    background-size: contain;
+}
+.Person-mediaf{
+    background-image: url("../assets/images/ExecsTeams/media.webp");
+    background-size: contain;
+}
+.Person-media1{
+    background-image: url("../assets/images/ExecsTeams/jyotir.webp");
+    background-size: contain;
+}
+.Person-media2{
+    background-image: url("../assets/images/ExecsTeams/vedant.webp");
+    background-size: contain;
+}
+.Person-media3{
+    background-image: url("../assets/images/ExecsTeams/asman.webp");
+    background-size: contain;
+}
+.Person-media4{
+    background-image: url("../assets/images/ExecsTeams/vansh.webp");
+    background-size: contain;
+}
+.Person-operf{
+    background-image: url("../assets/images/ExecsTeams/operations.webp");
+    background-size: contain;
+}
+.Person-oper1{
+    background-image: url("../assets/images/ExecsTeams/akshat.webp");
+    background-size: contain;
+}
+.Person-finf{
+    background-image: url("../assets/images/ExecsTeams/finance.webp");
+    background-size: contain;
+}
+.Person-fin1{
+    background-image: url("../assets/images/ExecsTeams/akansha.webp");
+    background-size: contain;
+}
+.Person-fin2{
+    background-image: url("../assets/images/ExecsTeams/nikhil.webp");
+    background-size: contain;
+}
+.Person-fin3{
+    background-image: url("../assets/images/ExecsTeams/samriddhi.webp");
+    background-size: contain;
+}
+.Person-eventf{
+    background-image: url("../assets/images/ExecsTeams/events.webp");
+    background-size: contain;
+}
+.Person-event1{
+    background-image: url("../assets/images/ExecsTeams/yash.webp");
+    background-size: contain;
+}
+.Person-event2{
+    background-image: url("../assets/images/ExecsTeams/shaurya.webp");
+    background-size: contain;
+}
+.Person-event3{
+    background-image: url("../assets/images/ExecsTeams/pratiksha.webp");
+    background-size: contain;
+}
+
+
+.execs-section-front0 h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.execs-section-front0 p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.execs-section-back0 h1 {
+    font-size: 35px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.execs-section-back0 h1 span {
+    font-weight: 400;
+}
+
+.execs-section-back0 p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.execs-section-row0 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 12%;
+    left: 25%;
+}
+
+.execs-section-back0 a {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    background-color: white;
+}
+
+.execs-section-back0 a:hover {
+    transform: scale(1.12);
+    transition: 0.5s ease-in-out;
+}
+
+.execs-section-back0 a img {
+    width: 60%;
+}
+
+.execs-section-card0.flip-card .execs-section-card-inner0 {
+    transform: rotateY(180deg);
+}
+
+
+
+@media (max-width: 768px) {
+    .execs-section-containerof-20 {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    .execs-section-card0 {
+        width: 270px;
+        height: 390px;
+    }
+}

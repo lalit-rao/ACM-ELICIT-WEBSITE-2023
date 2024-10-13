@@ -33,7 +33,7 @@ export default function CounterCards() {
                     animate(count1, 4000, { duration: 3 });
                     animate(count2, 12, { duration: 3 });
                     animate(count3, 8, { duration: 3 });
-                    animate(count4, 75, { duration: 3 });
+                    animate(count4, 125, { duration: 3 });
 
                     setHasAnimated(true); // Ensure animations run only once
                     observer.unobserve(entry.target); // Stop observing after animation starts
