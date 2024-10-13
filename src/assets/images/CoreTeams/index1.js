@@ -1,278 +1,333 @@
+// ../assets/index.js
+
+import anvi_sarbhai from '../assets/images/Creatives/Anvi_Sarbhai.webp';
+import apurv_harsh from '../assets/images/Creatives/Apurv_Harsh.webp';
+import manalee from '../assets/images/Creatives/Manalee.webp';
+import sanyam_kathed from '../assets/images/Creatives/Sanyam_Kathed.webp';
+import vansh_vashist from '../assets/images/Creatives/Vansh_Vashist.webp';
+import amrisha_srivastava from '../assets/images/WebDev/Amrisha_Srivastava.webp';
+import mahadevan_ks from '../assets/images/WebDev/Mahadevan_KS.webp';
+import oshika_sharma from '../assets/images/WebDev/Oshika_Sharma.webp';
+import eshaan_saha from '../assets/images/Events/Eshaan_Saha.webp';
+import eshanya_padial from '../assets/images/Events/Eshanya_Padial.webp';
+import mahak_agrawal from '../assets/images/Events/Mahak_Agrawal.webp';
+import manan_dubey from '../assets/images/Events/Manan_Dubey.webp';
+import osh_gupta from '../assets/images/Events/Osh_Gupta.webp';
+import pranav_deshpande from '../assets/images/Events/Pranav_Deshpande.webp';
+import pranjal_sharma from '../assets/images/Events/Pranjal_Sharma.webp';
+import shivika_singh from '../assets/images/Events/Shivika_Singh.webp';
+import shreya_singh from '../assets/images/Events/Shreya_Singh.webp';
+import veer_sirohia from '../assets/images/Events/Veer_Sirohia.webp';
+import akshat_mishra from '../assets/images/Finance/Akshat_Mishra.webp';
+import anish_mahapatra from '../assets/images/Finance/Anish_Mahapatra.webp';
+import anshika_kumari from '../assets/images/Finance/Anshika_Kumari.webp';
+import gurleen_kaur from '../assets/images/Finance/Gurleen_Kaur.webp';
+import nitya_jain from '../assets/images/Finance/Nitya_Jain.webp';
+import riddhi_batra from '../assets/images/Finance/Riddhi_Batra.webp';
+import shikha_srivastava from '../assets/images/Finance/Shikha_Srivastava.webp';
+import tarni_khatri from '../assets/images/Finance/Tarni_Khatri.webp';
+import aashi_singh from '../assets/images/Marketing/Aashi_Singh.webp';
+import adveita_bhargava from '../assets/images/Marketing/Adveita_Bhargava.webp';
+import aishwika_gupta from '../assets/images/Marketing/Aishwika_Gupta.webp';
+import aviral_dimri from '../assets/images/Marketing/Aviral_Dimri.webp';
+import disha_manchanda from '../assets/images/Marketing/Disha_Manchanda.webp';
+import harman_bhambra from '../assets/images/Marketing/Harman_Bhambra.webp';
+import mrinal_malik from '../assets/images/Marketing/Mrinal_Malik.webp';
+import nivan_vashisht from '../assets/images/Marketing/Nivan_Vashist.webp';
+import palak_bhaiya from '../assets/images/Marketing/Palak_Bhaiya.webp';
+import pranjana from '../assets/images/Marketing/Pranjana_Rahangdale.webp';
+import shifa_khan from '../assets/images/Marketing/Shifa_Khan.webp';
+import tamanna_bhargava from '../assets/images/Marketing/Tamanna_Bhargava.webp';
+import akash_kumar from '../assets/images/Operations/Akash_Kumar.webp';
+import kshitij_verma from '../assets/images/Operations/Kshitij_Verma.webp';
+import nitish_kumar from '../assets/images/Operations/Nitish_Kumar.webp';
+import piyush_agarwal from '../assets/images/Operations/Piyush_Agarwal.webp';
+import swarnim_gupta from '../assets/images/Operations/Swarnim_Gupta.webp';
+import viplav_kumar from '../assets/images/Operations/Viplav_Kumar.webp';
+import aadya_nagar from '../assets/images/Sponsorships/Aadya_Nagar.webp';
+import arnav_kedia from '../assets/images/Sponsorships/Arnav_Kedia.webp';
+import churchit_goyal from '../assets/images/Sponsorships/Churchit_Goyal.webp';
+import mahi_sachdeva from '../assets/images/Sponsorships/Mahi_Sachdeva.webp';
+import preetansh_singh from '../assets/images/Sponsorships/Preetansh_Singh.webp';
+import siddham_gupta from '../assets/images/Sponsorships/Siddham_Gupta.webp';
+import tejal_salathia from '../assets/images/Sponsorships/Tejal_Salathia.webp';
+import arif_islam_shaik from '../assets/images/Media/Arif_Islam_Shaik.webp';
+import rishit_jaiswal from '../assets/images/Media/Rishit_Jaiswal.webp';
+
 
 const images = [
     // Creatives committee
     {
       name: "Anvi Sarbhai",
       committee: "Creatives",
-      imageC: 'src/assets/images/Creatives/Anvi_Sarbhai.webp',
-
+      image: anvi_sarbhai,
     },
     {
       name: "Apurv Harsh",
       committee: "Creatives",
-      imageC: 'src/assets/images/Creatives/Apurv_Harsh.webp',
+      image: apurv_harsh,
     },
     {
       name: "Manalee",
       committee: "Creatives",
-      imageC: 'src/assets/images/Creatives/Manalee.webp',
+      image: manalee,
     },
     {
       name: "Sanyam Kathed",
       committee: "Creatives",
-      imageC: 'src/assets/images/Creatives/Sanyam_Kathed.webp',
+      image: sanyam_kathed,
     },
     {
       name: "Vansh Vashist",
       committee: "Creatives",
-      imageC: 'src/assets/images/Creatives/Vansh_Vashist.webp',
+      image: vansh_vashist,
     },
     // Web Dev committee
     {
       name: "Amrisha Srivastava",
       committee: "Web Dev",
-      imageC: 'src/assets/images/WebDev/Amrisha_Srivastava.webp',
+      image: amrisha_srivastava,
     },
     {
       name: "Mahadevan KS",
       committee: "Web Dev",
-      imageC: 'src/assets/images/WebDev/Mahadevan_KS.webp',
+      image: mahadevan_ks,
     },
     {
       name: "Oshika Sharma",
       committee: "Web Dev",
-      imageC: 'src/assets/images/WebDev/Oshika_Sharma.webp',
+      image: oshika_sharma,
     },
     // Events committee
     {
       name: "Eshaan Saha",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Eshaan_Saha.webp',
+      image: eshaan_saha,
     },
     {
       name: "Eshanya Padial",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Eshanya_Padial.webp',
+      image: eshanya_padial,
     },
     {
       name: "Mahak Agrawal",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Mahak_Agrawal.webp',
+      image: mahak_agrawal,
     },
     {
       name: "Manan Dubey",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Manan_Dubey.webp',
+      image: manan_dubey,
     },
     {
       name: "Osh Gupta",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Osh_Gupta.webp',
+      image: osh_gupta,
     },
     {
       name: "Pranav Deshpande",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Pranav_Deshpande.webp',
+      image: pranav_deshpande,
     },
     {
       name: "Pranjal Sharma",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Pranjal_Sharma.webp',
+      image: pranjal_sharma,
     },
     {
       name: "Shivika Singh",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Shivika_Singh.webp',
+      image: shivika_singh,
     },
     {
       name: "Shreya Singh",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Shreya_Singh.webp',
+      image: shreya_singh,
     },
     {
       name: "Veer Sirohia",
       committee: "Events",
-      imageC: 'src/assets/images/Events/Veer_Sirohia.webp',
+      image: veer_sirohia,
     },
     // Finance committee
     {
       name: "Akshat Mishra",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Akshat_Mishra.webp',
+      image: akshat_mishra,
     },
     {
       name: "Anish Mahapatra",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Anish_Mahapatra.webp',
+      image: anish_mahapatra,
     },
     {
       name: "Anshika Kumari",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Anshika_Kumari.webp',
+      image: anshika_kumari,
     },
     {
       name: "Gurleen Kaur",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Gurleen_Kaur.webp',
+      image: gurleen_kaur,
     },
     {
       name: "Nitya Jain",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Nitya_Jain.webp',
+      image: nitya_jain,
     },
     {
       name: "Riddhi Batra",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Riddhi_Batra.webp',
+      image: riddhi_batra,
     },
     {
       name: "Shikha Srivastava",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Shikha_Srivastava.webp',
+      image: shikha_srivastava,
     },
     {
       name: "Tarni Khatri",
       committee: "Finance",
-      imageC: 'src/assets/images/Finance/Tarni_Khatri.webp',
+      image: tarni_khatri,
     },
     // Marketing committee
     {
       name: "Aashi Singh",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Aashi_Singh.webp',
+      image: aashi_singh,
     },
     {
       name: "Adveita Bhargava",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Adveita_Bhargava.webp',
+      image: adveita_bhargava,
     },
     {
       name: "Aishwika Gupta",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Aishwika_Gupta.webp',
+      image: aishwika_gupta,
     },
     {
       name: "Aviral Dimri",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Aviral_Dimri.webp',
+      image: aviral_dimri,
     },
     {
       name: "Disha Manchanda",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Disha_Manchanda.webp',
+      image: disha_manchanda,
     },
     {
       name: "Harman Bhambra",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Harman_Bhambra.webp',
+      image: harman_bhambra,
     },
     {
       name: "Mrinal Malik",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Mrinal_Malik.webp',
+      image: mrinal_malik,
     },
     {
       name: "Nivan Vashisht",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Nivan_Vashist.webp',
+      image: nivan_vashisht,
     },
     {
       name: "Palak Bhaiya",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Palak_Bhaiya.webp',
+      image: palak_bhaiya,
     },
     {
       name: "Pranjana",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Pranjana_Rahangdale.webp',
+      image: pranjana,
     },
     {
       name: "Shifa Khan",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Shifa_Khan.webp',
+      image: shifa_khan,
     },
     {
       name: "Tamanna Bhargava",
       committee: "Marketing",
-      imageC: 'src/assets/images/Marketing/Tamanna_Bhargava.webp',
+      image: tamanna_bhargava,
     },
     // Operations committee
     {
       name: "Akash Kumar",
       committee: "Operations",
-      imageC: 'src/assets/images/Operations/Akash_Kumar.webp',
+      image: akash_kumar,
     },
     {
       name: "Kshitij Verma",
       committee: "Operations",
-      imageC: 'src/assets/images/Operations/Kshitij_Verma.webp',
+      image: kshitij_verma,
     },
     {
       name: "Nitish Kumar",
       committee: "Operations",
-      imageC: 'src/assets/images/Operations/Nitish_Kumar.webp',
+      image: nitish_kumar,
     },
     {
       name: "Piyush Agarwal",
       committee: "Operations",
-      imageC: 'src/assets/images/Operations/Piyush_Agarwal.webp',
+      image: piyush_agarwal,
     },
     {
       name: "Swarnim Gupta",
       committee: "Operations",
-      imageC: 'src/assets/images/Operations/Swarnim_Gupta.webp',
+      image: swarnim_gupta,
     },
     {
       name: "Viplav Kumar",
       committee: "Operations",
-      imageC: 'src/assets/images/Operations/Viplav_Kumar.webp',
+      image: viplav_kumar,
     },
     // Sponsorships committee
     {
       name: "Aadya Nagar",
       committee: "Sponsorships",
-      imageC: 'src/assets/images/Sponsorships/Aadya_Nagar.webp',
+      image: aadya_nagar,
     },
     {
       name: "Arnav Kedia",
       committee: "Sponsorships",
-      imageC: 'src/assets/images/Sponsorships/Arnav_Kedia.webp',
+      image: arnav_kedia,
     },
     {
       name: "Churchit Goyal",
       committee: "Sponsorships",
-      imageC: 'src/assets/images/Sponsorships/Churchit_Goyal.webp',
+      image: churchit_goyal,
     },
     {
       name: "Mahi Sachdeva",
       committee: "Sponsorships",
-      imageC: 'src/assets/images/Sponsorships/Mahi_Sachdeva.webp',
+      image: mahi_sachdeva,
     },
     {
       name: "Preetansh Singh",
       committee: "Sponsorships",
-      imageC: 'src/assets/images/Sponsorships/Preetansh_Singh.webp',
+      image: preetansh_singh,
     },
     {
       name: "Siddham Gupta",
       committee: "Sponsorships",
-      imageC: 'src/assets/images/Sponsorships/Siddham_Gupta.webp',
+      image: siddham_gupta,
     },
     {
       name: "Tejal Salathia",
       committee: "Sponsorships",
-      imageC: 'src/assets/images/Sponsorships/Tejal_Salathia.webp',
+      image: tejal_salathia,
     },
     // Media committee
     {
       name: "Arif Islam Shaik",
       committee: "Media",
-      imageC: 'src/assets/images/Media/Arif_Islam_Shaik.webp',
+      image: arif_islam_shaik,
     },
     {
       name: "Rishit Jaiswal",
       committee: "Media",
-      imageC: 'src/assets/images/Media/Rishit_Jaiswal.webp',
+      image: rishit_jaiswal,
     }
 ];
 
