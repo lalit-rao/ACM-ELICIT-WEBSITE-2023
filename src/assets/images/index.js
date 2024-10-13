@@ -101,8 +101,114 @@ import Person3 from './Convener/Ayan.webp'
 import Person4 from './Convener/Priyanshu.webp'
 import insta from './footer/insta.png'
 import linktree from './footer/linktree.webp'
+import anvi_sarbhai from './Creatives/Anvi_Sarbhai.webp';
+import apurv_harsh from './Creatives/Apurv_Harsh.webp';
+import manalee from './Creatives/Manalee.webp';
+import sanyam_kathed from './Creatives/Sanyam_Kathed.webp';
+import vansh_vashist from './Creatives/Vansh_Vashist.webp';
+import amrisha_srivastava from './WebDev/Amrisha_Srivastava.webp';
+import mahadevan_ks from './WebDev/Mahadevan_KS.webp';
+import oshika_sharma from './WebDev/Oshika_Sharma.webp';
+import eshaan_saha from './Events/Eshaan_Saha.webp';
+import eshanya_padial from './Events/Eshanya_Padial.webp';
+import mahak_agrawal from './Events/Mahak_Agrawal.webp';
+import manan_dubey from './Events/Manan_Dubey.webp';
+import osh_gupta from './Events/Osh_Gupta.webp';
+import pranav_deshpande from './Events/Pranav_Deshpande.webp';
+import pranjal_sharma from './Events/Pranjal_Sharma.webp';
+import shivika_singh from './Events/Shivika_Singh.webp';
+import shreya_singh from './Events/Shreya_Singh.webp';
+import veer_sirohia from './Events/Veer_Sirohia.webp';
+import akshat_mishra from './Finance/Akshat_Mishra.webp';
+import anish_mahapatra from './Finance/Anish_Mahapatra.webp';
+import anshika_kumari from './Finance/Anshika_Kumari.webp';
+import gurleen_kaur from './Finance/Gurleen_Kaur.webp';
+import nitya_jain from './Finance/Nitya_Jain.webp';
+import riddhi_batra from './Finance/Riddhi_Batra.webp';
+import shikha_srivastava from './Finance/Shikha_Srivastava.webp';
+import tarni_khatri from './Finance/Tarni_Khatri.webp';
+import aashi_singh from './Marketing/Aashi_Singh.webp';
+import adveita_bhargava from './Marketing/Adveita_Bhargava.webp';
+import aishwika_gupta from './Marketing/Aishwika_Gupta.webp';
+import aviral_dimri from './Marketing/Aviral_Dimri.webp';
+import disha_manchanda from './Marketing/Disha_Manchanda.webp';
+import harman_bhambra from './Marketing/Harman_Bhambra.webp';
+import mrinal_malik from './Marketing/Mrinal_Malik.webp';
+import nivan_vashisht from './Marketing/Nivan_Vashist.webp';
+import palak_bhaiya from './Marketing/Palak_Bhaiya.webp';
+import pranjana from './Marketing/Pranjana_Rahangdale.webp';
+import shifa_khan from './Marketing/Shifa_Khan.webp';
+import tamanna_bhargava from './Marketing/Tamanna_Bhargava.webp';
+import akash_kumar from './Operations/Akash_Kumar.webp';
+import kshitij_verma from './Operations/Kshitij_Verma.webp';
+import nitish_kumar from './Operations/Nitish_Kumar.webp';
+import piyush_agarwal from './Operations/Piyush_Agarwal.webp';
+import swarnim_gupta from './Operations/Swarnim_Gupta.webp';
+import viplav_kumar from './Operations/Viplav_Kumar.webp';
+import aadya_nagar from './Sponsorships/Aadya_Nagar.webp';
+import arnav_kedia from './Sponsorships/Arnav_Kedia.webp';
+import churchit_goyal from './Sponsorships/Churchit_Goyal.webp';
+import mahi_sachdeva from './Sponsorships/Mahi_Sachdeva.webp';
+import preetansh_singh from './Sponsorships/Preetansh_Singh.webp';
+import siddham_gupta from './Sponsorships/Siddham_Gupta.webp';
+import tejal_salathia from './Sponsorships/Tejal_Salathia.webp';
+import arif_islam_shaik from './Media/Arif_Islam_Shaik.webp';
+import rishit_jaiswal from './Media/Rishit_Jaiswal.webp';
 
 export {
+    anvi_sarbhai,
+    apurv_harsh,
+    manalee,
+    sanyam_kathed,
+    vansh_vashist,
+    amrisha_srivastava,
+    mahadevan_ks,
+    oshika_sharma,
+    eshaan_saha,
+    eshanya_padial,
+    mahak_agrawal,
+    manan_dubey,
+    osh_gupta,
+    pranav_deshpande,
+    pranjal_sharma,
+    shivika_singh,
+    shreya_singh,
+    veer_sirohia,
+    akshat_mishra,
+    anish_mahapatra,
+    anshika_kumari,
+    gurleen_kaur,
+    nitya_jain,
+    riddhi_batra,
+    shikha_srivastava,
+    tarni_khatri,
+    aashi_singh,
+    adveita_bhargava,
+    aishwika_gupta,
+    aviral_dimri,
+    disha_manchanda,
+    harman_bhambra,
+    mrinal_malik,
+    nivan_vashisht,
+    palak_bhaiya,
+    pranjana,
+    shifa_khan,
+    tamanna_bhargava,
+    akash_kumar,
+    kshitij_verma,
+    nitish_kumar,
+    piyush_agarwal,
+    swarnim_gupta,
+    viplav_kumar,
+    aadya_nagar,
+    arnav_kedia,
+    churchit_goyal,
+    mahi_sachdeva,
+    preetansh_singh,
+    siddham_gupta,
+    tejal_salathia,
+    arif_islam_shaik,
+    rishit_jaiswal,
     RoboticsWorkshop,
     CodersFeud,
     Kagglethon,

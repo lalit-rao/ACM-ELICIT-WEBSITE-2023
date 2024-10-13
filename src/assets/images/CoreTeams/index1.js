@@ -1,5 +1,7 @@
+/*
 // ../assets/index.js
 
+// Import images
 import anvi_sarbhai from '../assets/images/Creatives/Anvi_Sarbhai.webp';
 import apurv_harsh from '../assets/images/Creatives/Apurv_Harsh.webp';
 import manalee from '../assets/images/Creatives/Manalee.webp';
@@ -53,6 +55,64 @@ import siddham_gupta from '../assets/images/Sponsorships/Siddham_Gupta.webp';
 import tejal_salathia from '../assets/images/Sponsorships/Tejal_Salathia.webp';
 import arif_islam_shaik from '../assets/images/Media/Arif_Islam_Shaik.webp';
 import rishit_jaiswal from '../assets/images/Media/Rishit_Jaiswal.webp';
+
+// Export each image as a named export
+export {
+    anvi_sarbhai,
+    apurv_harsh,
+    manalee,
+    sanyam_kathed,
+    vansh_vashist,
+    amrisha_srivastava,
+    mahadevan_ks,
+    oshika_sharma,
+    eshaan_saha,
+    eshanya_padial,
+    mahak_agrawal,
+    manan_dubey,
+    osh_gupta,
+    pranav_deshpande,
+    pranjal_sharma,
+    shivika_singh,
+    shreya_singh,
+    veer_sirohia,
+    akshat_mishra,
+    anish_mahapatra,
+    anshika_kumari,
+    gurleen_kaur,
+    nitya_jain,
+    riddhi_batra,
+    shikha_srivastava,
+    tarni_khatri,
+    aashi_singh,
+    adveita_bhargava,
+    aishwika_gupta,
+    aviral_dimri,
+    disha_manchanda,
+    harman_bhambra,
+    mrinal_malik,
+    nivan_vashisht,
+    palak_bhaiya,
+    pranjana,
+    shifa_khan,
+    tamanna_bhargava,
+    akash_kumar,
+    kshitij_verma,
+    nitish_kumar,
+    piyush_agarwal,
+    swarnim_gupta,
+    viplav_kumar,
+    aadya_nagar,
+    arnav_kedia,
+    churchit_goyal,
+    mahi_sachdeva,
+    preetansh_singh,
+    siddham_gupta,
+    tejal_salathia,
+    arif_islam_shaik,
+    rishit_jaiswal,
+};
+
 
 
 const images = [
@@ -332,3 +392,4 @@ const images = [
 ];
 
 export default images;
+*/
