@@ -126,7 +126,7 @@ import gurleen_kaur from './Finance/Gurleen_Kaur.webp';
 import nitya_jain from './Finance/Nitya_Jain.webp';
 import riddhi_batra from './Finance/Riddhi_Batra.webp';
 import shikha_srivastava from './Finance/Shikha_Srivastava.webp';
-import tarni_khatri from './Finance/Tarni_Khatri.webp';
+import tarni_khatri from './Finance/Tarni_khatri.webp';
 import aashi_singh from './Marketing/Aashi_Singh.webp';
 import adveita_bhargava from './Marketing/Adveita_Bhargava.webp';
 import aishwika_gupta from './Marketing/Aishwika_Gupta.webp';
