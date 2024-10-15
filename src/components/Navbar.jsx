@@ -38,7 +38,7 @@ function Navbar() {
                 <a className="hover-underline-animation" href="/">Home</a>
                 <a className="hover-underline-animation" href="/#/gallery">Gallery</a>
                 <a className="hover-underline-animation" href="/#/upcoming-events">Events</a>
-                {/*<a className="hover-underline-animation" href="/Team">Team</a>*/}
+                <a className="hover-underline-animation" href="/#/team">Team</a>
                 <button
                     className="nav-btn nav-close-btn"
                     onClick={showNavbar}>
