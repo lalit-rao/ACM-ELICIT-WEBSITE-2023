@@ -1,13 +1,13 @@
-import {useEffect, useRef, useState} from "react";
+import {useEffect, useRef} from "react";
 import "./teams.css";
 
-const Committee = ({committeeName, members}) => {
+const Committee = ({ committeeName, members }) => {
     const cardRefs = useRef([]);
 
     useEffect(() => {
         const options = {
             root: null,
-            rootMargin: "10px",
+            rootMargin: '10px',
             threshold: 0.7,
         };
 
@@ -17,9 +17,9 @@ const Committee = ({committeeName, members}) => {
                     const cardIndex = cardRefs.current.indexOf(entry.target);
                     const delay = cardIndex * 200; // Adjust delay for staggered effect
                     setTimeout(() => {
-                        entry.target.classList.add("flip-card");
+                        entry.target.classList.add('flip-card');
                     }, delay);
-                    observer.unobserve(entry.target);
+                    observer.unobserve(entry.target); // Stop observing after adding the class
                 }
             });
         }, options);
@@ -39,9 +39,7 @@ const Committee = ({committeeName, members}) => {
         <div>
             <div className="title-heading-box1">
                 <div className="title-heading">
-                    <p className="title-heading2">
-                        {committeeName}
-                    </p>
+                    <p className="title-heading2">{committeeName}</p>
                 </div>
             </div>
             <div className="execs-section-containerof-20">
@@ -52,8 +50,8 @@ const Committee = ({committeeName, members}) => {
                         ref={(el) => (cardRefs.current[index] = el)}
                     >
                         <div className="execs-section-card-inner0">
-                            <div className={`execs-section-front0 ${person.imageClass}`}/>
-                            <div className={`execs-section-back0 ${person.imageClass2}`}/>
+                            <div className={`execs-section-front0 ${person.imageClass}`} />
+                            <div className={`execs-section-back0 ${person.imageClass2}`} />
                         </div>
                     </div>
                 ))}
@@ -61,6 +59,8 @@ const Committee = ({committeeName, members}) => {
         </div>
     );
 };
+
+
 
 const ExecsSection = () => {
     const committees = [

@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ScrollTrigger from 'react-scroll-trigger';
-import teamMembers from './data';
+import teamMembers from './data.js';
 
 const CoreCard = () => {
-  // Group team members by committee
   const groupedMembers = teamMembers.reduce((acc, member) => {
     if (!acc[member.committee]) {
       acc[member.committee] = [];
@@ -19,7 +18,7 @@ const CoreCard = () => {
   }; //scroll based cards rise upwards -> uses react-scroll-trigger
 
   return (
-      <div className="flex flex-col items-center gap-16 mt-16 py-12">
+      <div className="flex flex-col items-center gap-16 mt-16 py-12 mb-36">
         <div className="title-heading-box1">
           <div className="title-heading">
             <p className="title-heading2">
